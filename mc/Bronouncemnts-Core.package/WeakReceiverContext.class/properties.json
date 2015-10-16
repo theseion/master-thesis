@@ -1,0 +1,14 @@
+{
+	"category" : "Bronouncemnts-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WeakReceiverContext",
+	"pools" : [
+		 ],
+	"super" : "Context",
+	"type" : "weak" }

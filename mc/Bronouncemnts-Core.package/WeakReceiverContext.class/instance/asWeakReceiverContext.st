@@ -1,0 +1,3 @@
+converting
+asWeakReceiverContext
+	^ self
