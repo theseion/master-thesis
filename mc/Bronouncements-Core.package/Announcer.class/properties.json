@@ -1,0 +1,16 @@
+{
+	"category" : "Bronouncements-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"CurrentBreakerAnnouncement",
+		"Registry",
+		"ShouldBreakOnNext" ],
+	"commentStamp" : "IgorStasenko 3/12/2011 18:45",
+	"instvars" : [
+		"registry" ],
+	"name" : "Announcer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
