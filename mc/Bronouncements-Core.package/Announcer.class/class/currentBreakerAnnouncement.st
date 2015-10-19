@@ -1,3 +1,3 @@
 bronouncements
 currentBreakerAnnouncement
-	^ CurrentBreakerAnnouncement
+	^ currentBreakerAnnouncement

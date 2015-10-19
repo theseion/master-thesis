@@ -1,4 +1,6 @@
 bronouncements
 breakOnNext: anAnnouncement
-	CurrentBreakerAnnouncement := anAnnouncement class theNonMetaClass.
-	ShouldBreakOnNext := true
+	currentBreakerAnnouncement := anAnnouncement class theNonMetaClass.
+	shouldBreakOnNext := true.
+	
+	self allSubclassesDo: [ :ann | ann breakOnNext: anAnnouncement ]

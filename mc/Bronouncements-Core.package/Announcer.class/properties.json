@@ -1,11 +1,10 @@
 {
 	"category" : "Bronouncements-Core",
 	"classinstvars" : [
-		 ],
+		"currentBreakerAnnouncement",
+		"shouldBreakOnNext" ],
 	"classvars" : [
-		"CurrentBreakerAnnouncement",
-		"Registry",
-		"ShouldBreakOnNext" ],
+		 ],
 	"commentStamp" : "IgorStasenko 3/12/2011 18:45",
 	"instvars" : [
 		"registry" ],

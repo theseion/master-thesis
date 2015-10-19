@@ -1,14 +1,14 @@
 {
 	"class" : {
-		"breakOnNext:" : "MaxLeske 10/16/2015 18:28",
-		"currentBreakerAnnouncement" : "MaxLeske 10/16/2015 18:38",
-		"shouldBreakOnNext" : "MaxLeske 10/16/2015 18:39",
-		"stopBreakOnNext" : "MaxLeske 10/16/2015 20:50" },
+		"breakOnNext:" : "MaxLeske 10/19/2015 23:10",
+		"currentBreakerAnnouncement" : "MaxLeske 10/19/2015 23:07",
+		"shouldBreakOnNext" : "MaxLeske 10/19/2015 23:07",
+		"stopBreakOnNext" : "MaxLeske 10/19/2015 23:11" },
 	"instance" : {
 		"announce:" : "MaxLeske 10/16/2015 20:52",
 		"basicSubscribe:" : "IgorStasenko 3/12/2011 20:30",
 		"breakOnNext:" : "MaxLeske 10/16/2015 18:18",
-		"handleAnnouncementBreakpointFor:" : "MaxLeske 10/16/2015 20:53",
+		"handleAnnouncementBreakpointFor:" : "MaxLeske 10/19/2015 23:11",
 		"initialize" : "IgorStasenko 3/12/2011 16:50",
 		"numberOfSubscriptions" : "IgorStasenko 3/12/2011 21:02",
 		"openDebuggerFor:" : "MaxLeske 10/16/2015 21:04",

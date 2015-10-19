@@ -1,3 +1,3 @@
 bronouncements
 shouldBreakOnNext
-	^ ShouldBreakOnNext ifNil: [ false ]
+	^ shouldBreakOnNext ifNil: [ false ]

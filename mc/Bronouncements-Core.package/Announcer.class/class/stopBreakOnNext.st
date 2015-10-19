@@ -1,4 +1,6 @@
 bronouncements
 stopBreakOnNext
-	ShouldBreakOnNext := false.
-	CurrentBreakerAnnouncement := nil
+	shouldBreakOnNext := false.
+	currentBreakerAnnouncement := nil.
+	
+	self allSubclassesDo: [ :ann | ann stopBreakOnNext ]
