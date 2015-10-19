@@ -1,0 +1,14 @@
+{
+	"category" : "Bronouncements-Weak-Announcements",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WeakReceiverContext",
+	"pools" : [
+		 ],
+	"super" : "Context",
+	"type" : "weak" }
