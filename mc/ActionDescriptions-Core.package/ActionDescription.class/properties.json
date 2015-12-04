@@ -1,0 +1,17 @@
+{
+	"category" : "ActionDescriptions-Core",
+	"classinstvars" : [
+		"announcer" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"selector",
+		"links",
+		"classes",
+		"state" ],
+	"name" : "ActionDescription",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

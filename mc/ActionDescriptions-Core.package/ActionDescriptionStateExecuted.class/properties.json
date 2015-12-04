@@ -1,0 +1,14 @@
+{
+	"category" : "ActionDescriptions-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ActionDescriptionStateExecuted",
+	"pools" : [
+		 ],
+	"super" : "ActionDescriptionState",
+	"type" : "normal" }

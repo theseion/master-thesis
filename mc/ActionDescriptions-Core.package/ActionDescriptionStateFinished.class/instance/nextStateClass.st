@@ -1,0 +1,3 @@
+accessing
+nextStateClass
+	self shouldNotImplement
