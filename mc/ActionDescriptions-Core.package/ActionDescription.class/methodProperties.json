@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"announcer" : "MaxLeske 12/3/2015 16:04",
+		"executeActionsWithPragma:condition:" : "MaxLeske 12/4/2015 16:29" },
+	"instance" : {
+		"announcer" : "MaxLeske 12/3/2015 16:03",
+		"basicExecute" : "MaxLeske 12/4/2015 12:29",
+		"classes" : "MaxLeske 12/3/2015 16:21",
+		"classes:" : "MaxLeske 12/3/2015 16:13",
+		"execute" : "MaxLeske 12/4/2015 13:50",
+		"handleContext:" : "MaxLeske 12/4/2015 12:55",
+		"initialize" : "MaxLeske 12/4/2015 13:24",
+		"links" : "MaxLeske 12/4/2015 12:04",
+		"methods" : "MaxLeske 12/4/2015 12:05",
+		"selector" : "MaxLeske 11/26/2015 14:53",
+		"selector:" : "MaxLeske 11/26/2015 14:53",
+		"state" : "MaxLeske 12/4/2015 12:26",
+		"state:" : "MaxLeske 12/4/2015 12:27",
+		"subscribeForExecution" : "MaxLeske 12/4/2015 12:19",
+		"uninstall" : "MaxLeske 12/4/2015 13:57" } }

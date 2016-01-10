@@ -1,0 +1,15 @@
+{
+	"category" : "ActionDescriptions-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"description",
+		"context" ],
+	"name" : "ActionDescriptionState",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

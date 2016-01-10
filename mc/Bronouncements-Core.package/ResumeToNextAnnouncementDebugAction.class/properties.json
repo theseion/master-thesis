@@ -1,0 +1,14 @@
+{
+	"category" : "Bronouncements-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ResumeToNextAnnouncementDebugAction",
+	"pools" : [
+		 ],
+	"super" : "ResumeDebugAction",
+	"type" : "normal" }

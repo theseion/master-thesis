@@ -1,0 +1,24 @@
+{
+	"class" : {
+		"breakOnNext:" : "MaxLeske 10/19/2015 23:10",
+		"currentBreakerAnnouncement" : "MaxLeske 10/19/2015 23:07",
+		"shouldBreakOnNext" : "MaxLeske 10/19/2015 23:07",
+		"stopBreakOnNext" : "MaxLeske 10/19/2015 23:11" },
+	"instance" : {
+		"announce:" : "MaxLeske 10/16/2015 20:52",
+		"basicSubscribe:" : "IgorStasenko 3/12/2011 20:30",
+		"breakOnNext:" : "MaxLeske 10/16/2015 18:18",
+		"handleAnnouncementBreakpointFor:" : "MaxLeske 10/19/2015 23:11",
+		"initialize" : "IgorStasenko 3/12/2011 16:50",
+		"numberOfSubscriptions" : "IgorStasenko 3/12/2011 21:02",
+		"openDebuggerFor:" : "MaxLeske 10/16/2015 21:04",
+		"removeSubscription:" : "StephaneDucasse 4/24/2011 11:09",
+		"replace:with:" : "IgorStasenko 3/22/2011 15:27",
+		"shouldBreakOnNext:" : "MaxLeske 10/16/2015 20:55",
+		"subscribe:do:" : "StephaneDucasse 4/24/2011 12:17",
+		"subscribe:send:to:" : "StephaneDucasse 4/24/2011 12:16",
+		"unsubscribe:" : "StephaneDucasse 4/24/2011 12:15",
+		"weak" : "IgorStasenko 3/12/2011 20:26",
+		"when:do:" : "StephaneDucasse 8/27/2013 21:52",
+		"when:do:for:" : "StephaneDucasse 8/27/2013 21:47",
+		"when:send:to:" : "StephaneDucasse 8/22/2013 22:59" } }

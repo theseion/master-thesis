@@ -1,0 +1,15 @@
+{
+	"category" : "ActionDescriptions-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"continueUntilPredicate",
+		"debuggerClass" ],
+	"name" : "BreakActionDescription",
+	"pools" : [
+		 ],
+	"super" : "ActionDescription",
+	"type" : "normal" }
