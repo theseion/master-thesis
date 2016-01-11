@@ -1,0 +1,14 @@
+{
+	"category" : "ML-Stackbuilder",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"exception" ],
+	"name" : "BuilderTrigger",
+	"pools" : [
+		 ],
+	"super" : "Announcement",
+	"type" : "normal" }
