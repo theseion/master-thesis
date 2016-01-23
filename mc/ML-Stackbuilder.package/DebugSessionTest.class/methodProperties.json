@@ -1,0 +1,7 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testIsContextPostMortemDeadOntopOfActive" : "MaxLeske 1/23/2016 17:23",
+		"testIsContextPostMortemExceptionInDifferentProcess" : "MaxLeske 1/23/2016 15:14",
+		"testIsContextPostMortemNormalException" : "MaxLeske 1/23/2016 15:09" } }

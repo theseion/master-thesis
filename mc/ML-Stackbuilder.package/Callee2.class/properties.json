@@ -1,0 +1,14 @@
+{
+	"category" : "ML-Stackbuilder",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "Callee2",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

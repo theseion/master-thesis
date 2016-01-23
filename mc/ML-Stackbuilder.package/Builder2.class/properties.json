@@ -1,0 +1,15 @@
+{
+	"category" : "ML-Stackbuilder",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"StackCopy",
+		"TheAnnouncer" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"callerProcess" ],
+	"name" : "Builder2",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
