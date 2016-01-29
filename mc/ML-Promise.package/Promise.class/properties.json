@@ -1,0 +1,16 @@
+{
+	"category" : "ML-Promise",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Registry" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"semaphore",
+		"debugContinuation",
+		"exceptionContext" ],
+	"name" : "Promise",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

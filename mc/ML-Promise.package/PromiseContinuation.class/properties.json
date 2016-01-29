@@ -1,0 +1,14 @@
+{
+	"category" : "ML-Promise",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PromiseContinuation",
+	"pools" : [
+		 ],
+	"super" : "Continuation",
+	"type" : "normal" }
