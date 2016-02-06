@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "PromiseContinuation",
+	"name" : "RemoteException",
 	"pools" : [
 		 ],
-	"super" : "Continuation",
+	"super" : "Object",
 	"type" : "normal" }

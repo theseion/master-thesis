@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"runWithRoot:" : "MaxLeske 2/6/2016 14:49" },
+	"instance" : {
+		"doesNotUnderstand:" : "MaxLeske 2/6/2016 15:16",
+		"initialize" : "MaxLeske 2/6/2016 15:50",
+		"objects" : "MaxLeske 2/6/2016 18:08",
+		"registerSizeOf:" : "MaxLeske 2/6/2016 14:34",
+		"runWithRoot:" : "MaxLeske 2/6/2016 18:34",
+		"shouldIgnore:" : "MaxLeske 2/6/2016 18:16",
+		"size" : "MaxLeske 2/6/2016 11:50",
+		"visit:" : "MaxLeske 2/6/2016 14:57",
+		"visitContext:" : "MaxLeske 2/6/2016 18:18",
+		"visitInstanceVariablesOf:" : "MaxLeske 2/6/2016 14:35",
+		"visitObject:" : "MaxLeske 2/6/2016 14:38",
+		"visitSlotsOf:" : "MaxLeske 2/6/2016 14:37" } }

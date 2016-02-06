@@ -1,3 +1,4 @@
 as yet unclassified
 signal
-	semaphore signal
+	semaphore signal.
+	isSignaled := true

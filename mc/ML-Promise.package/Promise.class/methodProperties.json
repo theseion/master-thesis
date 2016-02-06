@@ -2,14 +2,15 @@
 	"class" : {
 		"registry" : "MaxLeske 1/29/2016 11:03" },
 	"instance" : {
-		"createDebugContinuation" : "MaxLeske 1/29/2016 16:08",
-		"debug" : "MaxLeske 1/29/2016 17:35",
-		"debug:" : "MaxLeske 1/29/2016 17:45",
-		"hasException" : "MaxLeske 1/29/2016 17:30",
-		"initialize" : "MaxLeske 1/29/2016 11:02",
+		"debug" : "MaxLeske 2/6/2016 16:53",
+		"debug:" : "MaxLeske 2/6/2016 17:04",
+		"handleError:" : "MaxLeske 2/6/2016 17:10",
+		"hasException" : "MaxLeske 2/4/2016 17:40",
+		"initialize" : "MaxLeske 2/4/2016 17:30",
 		"registry" : "MaxLeske 1/29/2016 10:53",
-		"run:" : "MaxLeske 1/29/2016 17:31",
-		"signal" : "MaxLeske 1/29/2016 10:56",
+		"run:" : "MaxLeske 2/6/2016 17:06",
+		"signal" : "MaxLeske 2/4/2016 17:29",
+		"trimStackOf:" : "MaxLeske 2/6/2016 17:03",
 		"value" : "MaxLeske 1/29/2016 10:53",
-		"wait" : "MaxLeske 1/29/2016 10:56",
-		"withErrorHandler:" : "MaxLeske 1/29/2016 17:30" } }
+		"wait" : "MaxLeske 2/4/2016 17:30",
+		"withErrorHandler:" : "MaxLeske 2/6/2016 17:12" } }

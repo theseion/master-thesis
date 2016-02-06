@@ -1,16 +1,17 @@
 {
-	"category" : "ML-Promise",
+	"category" : "ML-MemorySizeVisitor",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"Registry" ],
+		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"semaphore",
-		"debugContinuation",
-		"exceptionContext",
-		"isSignaled" ],
-	"name" : "Promise",
+		"size",
+		"objects",
+		"stack",
+		"firstContext",
+		"isDoIt" ],
+	"name" : "MemorySizeVisitor",
 	"pools" : [
 		 ],
 	"super" : "Object",

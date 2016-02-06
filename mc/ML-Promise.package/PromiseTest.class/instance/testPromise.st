@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testPromise
 	| promise start value before |
 	before := nil.
