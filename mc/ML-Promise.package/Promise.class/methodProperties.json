@@ -1,5 +1,6 @@
 {
 	"class" : {
+		"exampleDebugLocalException" : "MaxLeske 3/5/2016 12:20",
 		"exampleDebugRemoteException" : "MaxLeske 3/5/2016 12:13",
 		"registry" : "MaxLeske 1/29/2016 11:03" },
 	"instance" : {
@@ -12,7 +13,8 @@
 		"reifyContextsOf:" : "MaxLeske 3/4/2016 17:26",
 		"run:" : "MaxLeske 2/6/2016 17:06",
 		"signal" : "MaxLeske 2/4/2016 17:29",
-		"trimStackOf:" : "MaxLeske 3/4/2016 17:09",
+		"terminationContext" : "MaxLeske 3/5/2016 12:30",
+		"trimStackOf:" : "MaxLeske 3/5/2016 12:30",
 		"value" : "MaxLeske 1/29/2016 10:53",
 		"wait" : "MaxLeske 2/4/2016 17:30",
 		"withErrorHandler:" : "MaxLeske 3/4/2016 16:36" } }
