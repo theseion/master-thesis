@@ -21,7 +21,7 @@ baseline: spec
                 repository: 'http://smalltalkhub.com/mc/Pharo/Fuel/main' ].
 		spec
 			package: 'ML-Promise'
-			with: [ spec requires: #('Fuel'. 'Seamless') ].
+			with: [ spec requires: #('Fuel' 'Seamless') ].
 
 		spec
 			group: 'default'
