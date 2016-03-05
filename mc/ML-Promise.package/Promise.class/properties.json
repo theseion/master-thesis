@@ -7,7 +7,6 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"semaphore",
-		"debugContinuation",
 		"exceptionContext",
 		"isSignaled" ],
 	"name" : "Promise",
