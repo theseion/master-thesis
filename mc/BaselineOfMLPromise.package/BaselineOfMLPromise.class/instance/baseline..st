@@ -13,8 +13,15 @@ baseline: spec
                 versionString: #development;
                 repository: 'http://smalltalkhub.com/mc/Pharo/Seamless/main' ].
 		spec
+			project: 'Fuel'
+			with: [
+				spec
+                className: 'ConfigurationOfFuel';
+                versionString: #bleedingEdge;
+                repository: 'http://smalltalkhub.com/mc/Pharo/Fuel/main' ].
+		spec
 			package: 'ML-Promise'
-			with: [ spec requires: 'Seamless' ].
+			with: [ spec requires: #('Fuel'. 'Seamless') ].
 
 		spec
 			group: 'default'
