@@ -1,4 +1,4 @@
-as yet unclassified
+private
 debug: aContext
 	| activeProcess |
 	"ensure that the promise can be resolved when proceeding execution

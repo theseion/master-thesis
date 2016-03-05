@@ -1,4 +1,4 @@
-as yet unclassified
+private
 trimStackOf: aContext
 	"Remove unwanted stack frames"
 	| context activeProcess |

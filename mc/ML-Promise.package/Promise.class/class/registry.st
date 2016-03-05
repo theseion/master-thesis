@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 registry
 	^ Registry ifNil: [ Registry := WeakIdentityKeyDictionary new ]

@@ -1,4 +1,4 @@
-as yet unclassified
+private
 reifyContextsOf: anError
 	"remote made sure that contexts don't disappear"
 	| context topContext |

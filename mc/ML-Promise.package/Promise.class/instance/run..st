@@ -1,4 +1,4 @@
-as yet unclassified
+private
 run: aBlock
 	"self createDebugContinuation."
 	[

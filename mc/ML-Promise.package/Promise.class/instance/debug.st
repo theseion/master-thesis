@@ -1,4 +1,4 @@
-as yet unclassified
+public-operations
 debug
 	self hasException ifFalse: [ ^ self ].
 	

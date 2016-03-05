@@ -1,4 +1,4 @@
-as yet unclassified
+private
 signal
 	semaphore signal.
 	isSignaled := true

@@ -1,4 +1,4 @@
-as yet unclassified
+private
 handleError: anError
 	"We need a copy of the stack to ensure that the restoring
 	of contexts in the continuation doesn't mess up the exception
