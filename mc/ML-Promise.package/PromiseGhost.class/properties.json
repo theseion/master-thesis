@@ -1,0 +1,16 @@
+{
+	"category" : "ML-Promise",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "TMinimalProxy classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"object" ],
+	"name" : "PromiseGhost",
+	"pools" : [
+		 ],
+	"super" : "GHObjectGhost",
+	"traitcomposition" : "TMinimalProxy",
+	"type" : "normal" }

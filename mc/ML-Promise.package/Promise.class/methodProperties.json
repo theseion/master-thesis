@@ -4,9 +4,9 @@
 		"exampleDebugRemoteException" : "MaxLeske 3/12/2016 11:52",
 		"registry" : "MaxLeske 1/29/2016 11:03" },
 	"instance" : {
-		"attachFrozenContextsTo:" : "MaxLeske 3/12/2016 15:29",
+		"createCombinedStackFrom:" : "MaxLeske 3/12/2016 19:30",
 		"debug" : "MaxLeske 2/6/2016 16:53",
-		"debug:" : "MaxLeske 3/12/2016 15:27",
+		"debug:" : "MaxLeske 3/12/2016 19:30",
 		"freezeContexts" : "MaxLeske 3/12/2016 15:29",
 		"handleError:" : "MaxLeske 3/4/2016 17:25",
 		"hasException" : "MaxLeske 2/4/2016 17:40",

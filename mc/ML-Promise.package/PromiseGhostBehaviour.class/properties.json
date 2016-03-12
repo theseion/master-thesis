@@ -1,0 +1,14 @@
+{
+	"category" : "ML-Promise",
+	"classinstvars" : [
+		"default" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PromiseGhostBehaviour",
+	"pools" : [
+		 ],
+	"super" : "GHGhostBehaviour",
+	"type" : "normal" }
