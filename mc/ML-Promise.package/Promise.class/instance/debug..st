@@ -4,7 +4,9 @@ debug: aContext
 	"ensure that the promise can be resolved when proceeding execution
 	of the caller process"
 	activeProcess := Processor activeProcess.
-	self trimStackOf: aContext.
+	self
+		trimStackOf: aContext;
+		attachFrozenContextsTo: aContext.
 	
 	(Process 
 		forContext: aContext

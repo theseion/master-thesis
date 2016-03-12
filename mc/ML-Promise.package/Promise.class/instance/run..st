@@ -1,6 +1,7 @@
 private
 run: aBlock
-	"self createDebugContinuation."
+	<promiseEntryPoint>
+	self freezeContexts.
 	[
 		[ self withErrorHandler: [
 			self registry

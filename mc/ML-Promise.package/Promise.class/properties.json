@@ -8,7 +8,9 @@
 	"instvars" : [
 		"semaphore",
 		"exceptionContext",
-		"isSignaled" ],
+		"isSignaled",
+		"openDebuggerOnError",
+		"frozenContexts" ],
 	"name" : "Promise",
 	"pools" : [
 		 ],

@@ -3,4 +3,5 @@ initialize
 	super initialize.
 	
 	semaphore := Semaphore new.
-	isSignaled := false
+	isSignaled := false.
+	openDebuggerOnError := false

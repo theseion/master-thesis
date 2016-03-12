@@ -1,0 +1,3 @@
+private
+attachFrozenContextsTo: aContext
+	aContext bottomContext privSender: frozenContexts
