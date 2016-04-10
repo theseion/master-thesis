@@ -2,7 +2,7 @@
 	"category" : "ML-Promise",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "TMinimalGhost classTrait",
+	"classtraitcomposition" : "GHTMinimalGhost classTrait",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -12,5 +12,5 @@
 	"pools" : [
 		 ],
 	"super" : "GHObjectGhost",
-	"traitcomposition" : "TMinimalGhost",
+	"traitcomposition" : "GHTMinimalGhost",
 	"type" : "normal" }
