@@ -2,7 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
+		"testAsynchoronism" : "MaxLeske 4/17/2016 15:41",
+		"testDebug" : "MaxLeske 4/17/2016 15:38",
 		"testDefaultReturnValueWithException" : "MaxLeske 4/17/2016 13:23",
 		"testDefaultReturnValueWithoutException" : "MaxLeske 4/17/2016 13:18",
-		"testPromise" : "MaxLeske 4/17/2016 13:31",
-		"testPromiseException" : "MaxLeske 4/17/2016 13:32" } }
+		"testOnTimeoutDo" : "MaxLeske 4/17/2016 17:12",
+		"testOpenDebuggerOnError" : "MaxLeske 4/17/2016 15:38",
+		"testTimeout" : "MaxLeske 4/17/2016 15:28",
+		"testWeakRegistry" : "MaxLeske 4/17/2016 17:04" } }

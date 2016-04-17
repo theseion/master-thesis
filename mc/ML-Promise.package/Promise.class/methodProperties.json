@@ -2,7 +2,7 @@
 	"class" : {
 		"exampleDebugLocalException" : "MaxLeske 4/17/2016 11:36",
 		"exampleDebugRemoteException" : "MaxLeske 4/17/2016 11:36",
-		"registry" : "MaxLeske 1/29/2016 11:03" },
+		"registry" : "MaxLeske 4/17/2016 16:51" },
 	"instance" : {
 		"createCombinedStackFrom:" : "MaxLeske 3/12/2016 19:30",
 		"debug" : "MaxLeske 2/6/2016 16:53",
@@ -11,7 +11,9 @@
 		"freezeContexts" : "MaxLeske 3/12/2016 15:29",
 		"handleError:" : "MaxLeske 4/17/2016 13:13",
 		"hasException" : "MaxLeske 2/4/2016 17:40",
+		"hasTimeout" : "MaxLeske 4/17/2016 15:33",
 		"initialize" : "MaxLeske 4/17/2016 13:20",
+		"onTimeoutDo:" : "MaxLeske 4/17/2016 17:06",
 		"openDebuggerOnError" : "MaxLeske 4/17/2016 11:36",
 		"registry" : "MaxLeske 1/29/2016 10:53",
 		"reifyContextsOf:" : "MaxLeske 3/4/2016 17:26",
@@ -19,7 +21,8 @@
 		"run:" : "MaxLeske 4/17/2016 13:18",
 		"signal" : "MaxLeske 2/4/2016 17:29",
 		"terminationContext" : "MaxLeske 3/5/2016 12:30",
+		"timeout:" : "MaxLeske 4/17/2016 15:11",
 		"trimStackOf:" : "MaxLeske 3/12/2016 15:40",
 		"value" : "MaxLeske 4/17/2016 13:29",
-		"wait" : "MaxLeske 4/17/2016 13:21",
+		"wait" : "MaxLeske 4/17/2016 17:07",
 		"withErrorHandler:" : "MaxLeske 3/4/2016 16:36" } }

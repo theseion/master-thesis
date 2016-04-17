@@ -13,7 +13,9 @@
 		"frozenContexts",
 		"defaultReturnValue",
 		"process",
-		"wasStarted" ],
+		"wasStarted",
+		"timeout",
+		"onTimeoutBlock" ],
 	"name" : "Promise",
 	"pools" : [
 		 ],

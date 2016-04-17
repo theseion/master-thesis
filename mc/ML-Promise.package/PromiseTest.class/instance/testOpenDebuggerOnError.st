@@ -1,12 +1,12 @@
 tests
-testPromiseException
+testOpenDebuggerOnError
 	| promise |
-	promise := [ 1 seconds asDelay wait. 1/0 ] promise run.
-	
-	self assert: promise hasException.
+	promise := [ 1/0 ] promise
+		openDebuggerOnError;
+		yourself.
 	UIManager nonInteractiveDuring: [
 		self
-			should: [ promise debug ]
+			should: [ promise value ]
 			raise: ProvideAnswerNotification
 			whoseDescriptionIncludes: 'Opening Debugger'
 			description: 'Debugging the promise should open a debugger' ]

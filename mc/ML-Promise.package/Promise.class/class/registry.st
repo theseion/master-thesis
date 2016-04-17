@@ -1,3 +1,5 @@
 accessing
 registry
-	^ Registry ifNil: [ Registry := WeakIdentityKeyDictionary new ]
+	^ Registry ifNil: [
+		Registry := WeakIdentityKeyDictionary new.
+		WeakArray addWeakDependent: Registry ]
