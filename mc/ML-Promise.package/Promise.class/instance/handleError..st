@@ -6,6 +6,7 @@ handleError: anError
 	exceptionContext := anError isGhost
 		ifTrue: [ self reifyContextsOf: anError ]
 		ifFalse: [ anError signalContext copyStack ].
+	anError signalContext: exceptionContext.
 	self registry
 		at: self
-		put: nil
+		put: defaultReturnValue

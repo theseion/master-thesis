@@ -4,4 +4,6 @@ initialize
 	
 	semaphore := Semaphore new.
 	isSignaled := false.
-	openDebuggerOnError := false
+	openDebuggerOnError := false.
+	defaultReturnValue := nil.
+	wasStarted := false

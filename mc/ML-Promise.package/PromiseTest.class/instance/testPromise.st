@@ -8,7 +8,7 @@ testPromise
 		"simulate waiting for call to finish"
 		1 seconds asDelay wait.
 		"simulate result"
-		1 + 3 ] promise.
+		1 + 3 ] promise run.
 	"call should be issued immediately, so everthing up to
 	the call itself should be executed."
 	self assert: before equals: 1.

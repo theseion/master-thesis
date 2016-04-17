@@ -1,9 +1,7 @@
 tests
 testPromiseException
 	| promise |
-	promise := [ 1 seconds asDelay wait. 1/0 ] promise.
-	promise value.
-	Processor yield.
+	promise := [ 1 seconds asDelay wait. 1/0 ] promise run.
 	
 	self assert: promise hasException.
 	UIManager nonInteractiveDuring: [

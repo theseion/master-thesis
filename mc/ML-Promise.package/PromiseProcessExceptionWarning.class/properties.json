@@ -1,0 +1,14 @@
+{
+	"category" : "ML-Promise",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PromiseProcessExceptionWarning",
+	"pools" : [
+		 ],
+	"super" : "Warning",
+	"type" : "normal" }

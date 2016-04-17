@@ -12,5 +12,5 @@ exampleDebugRemoteException
 	network := SeamlessNetwork new.
 	remoteGlobals := network environmentAt: (TCPAddress ip: #[127 0 0 1] port: 1111).
 	[ (remoteGlobals at: #RemoteException) run ] promise
-		openDebuggerOnError: true;
+		openDebuggerOnError;
 		value

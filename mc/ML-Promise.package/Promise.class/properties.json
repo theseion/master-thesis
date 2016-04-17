@@ -10,7 +10,10 @@
 		"exceptionContext",
 		"isSignaled",
 		"openDebuggerOnError",
-		"frozenContexts" ],
+		"frozenContexts",
+		"defaultReturnValue",
+		"process",
+		"wasStarted" ],
 	"name" : "Promise",
 	"pools" : [
 		 ],
