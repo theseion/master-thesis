@@ -1,0 +1,14 @@
+{
+	"category" : "ML-Promise",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PromiseDebugHandler",
+	"pools" : [
+		 ],
+	"super" : "PromiseHandler",
+	"type" : "normal" }

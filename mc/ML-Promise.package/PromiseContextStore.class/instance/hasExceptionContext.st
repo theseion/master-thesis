@@ -1,0 +1,3 @@
+testing
+hasExceptionContext
+	^ exceptionContext notNil

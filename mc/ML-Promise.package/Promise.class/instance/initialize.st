@@ -6,4 +6,5 @@ initialize
 	isSignaled := false.
 	openDebuggerOnError := false.
 	defaultReturnValue := nil.
-	wasStarted := false
+	wasStarted := false.
+	contextStore := PromiseContextStore new

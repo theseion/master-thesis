@@ -1,4 +1,4 @@
 public-testing
 hasException
 	self wait.
-	^ exceptionContext notNil
+	^ self contextStore hasExceptionContext

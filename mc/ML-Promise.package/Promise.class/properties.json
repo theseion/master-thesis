@@ -7,15 +7,14 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"semaphore",
-		"exceptionContext",
 		"isSignaled",
 		"openDebuggerOnError",
-		"frozenContexts",
 		"defaultReturnValue",
 		"process",
 		"wasStarted",
 		"timeout",
-		"onTimeoutBlock" ],
+		"onTimeoutBlock",
+		"contextStore" ],
 	"name" : "Promise",
 	"pools" : [
 		 ],

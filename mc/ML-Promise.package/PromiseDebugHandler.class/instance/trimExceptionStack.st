@@ -1,8 +1,8 @@
 private
-trimStackOf: aContext
+trimExceptionStack
 	"Remove unwanted stack frames"
 	| context |
-	context := aContext findContextSuchThat: [ :ctxt |
+	context := self contextStore exceptionContext findContextSuchThat: [ :ctxt |
 		ctxt sender notNil and: [
 			"local"
 			(ctxt sender method hasPragmaNamed: #promiseEntryPoint) or: [

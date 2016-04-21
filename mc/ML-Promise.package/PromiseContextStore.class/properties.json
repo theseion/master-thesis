@@ -1,0 +1,15 @@
+{
+	"category" : "ML-Promise",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"exceptionContext",
+		"originContext" ],
+	"name" : "PromiseContextStore",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,9 +1,9 @@
 private
 run: aBlock
 	<promiseEntryPoint>
-	self freezeContexts.
+	self contextStore freezeOriginContext: thisContext.
 	process := [
-		[ self withErrorHandler: [
+		[ self withExceptionHandler: [
 			self registry
 				at: self
 				put: aBlock value ] ] ensure: [
