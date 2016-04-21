@@ -1,6 +1,6 @@
 private
 run: aBlock
-	<promiseEntryPoint>
+	<promiseRunMethod>
 	self contextStore freezeOriginContext: thisContext.
 	process := [
 		[ self withExceptionHandler: [

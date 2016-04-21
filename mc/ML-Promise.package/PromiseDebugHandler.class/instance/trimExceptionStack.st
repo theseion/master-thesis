@@ -5,7 +5,7 @@ trimExceptionStack
 	context := self contextStore exceptionContext findContextSuchThat: [ :ctxt |
 		ctxt sender notNil and: [
 			"local"
-			(ctxt sender method hasPragmaNamed: #promiseEntryPoint) or: [
+			(ctxt sender method hasPragmaNamed: #promiseRunMethod) or: [
 				"remote"
 				ctxt sender selector = #executeFor: ] ] ].
 	context ifNil: [ ^ self ].
