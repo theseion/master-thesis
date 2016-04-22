@@ -1,11 +1,8 @@
 private
 handleException: anException
 	| exceptionContext |
-	"We need a copy of the stack to ensure that the restoring
-	of contexts in the continuation doesn't mess up the exception
-	stack."
 	exceptionContext := anException isGhost
-		ifTrue: [ self reifyContextsOf: anException ]
+		ifTrue: [ anException signalContext ]
 		ifFalse: [ anException signalContext copyStack ].
 	anException signalContext: exceptionContext.
 	self promise contextStore exceptionContext: exceptionContext.

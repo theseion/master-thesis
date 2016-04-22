@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"defaultTitle" : "MaxLeske 4/22/2016 09:55",
+		"handlesContext:" : "MaxLeske 4/22/2016 09:56",
+		"helpClass" : "MaxLeske 4/22/2016 09:57",
+		"openOn:withFullView:andNotification:" : "MaxLeske 4/22/2016 18:18",
+		"register" : "MaxLeske 4/22/2016 09:58",
+		"registerToolsOn:" : "MaxLeske 4/22/2016 09:52",
+		"sessionClass" : "MaxLeske 4/22/2016 09:58" },
+	"instance" : {
+		"debuggingActionsPragmas" : "MaxLeske 4/22/2016 10:01",
+		"stackDebuggingActionsPragmas" : "MaxLeske 4/22/2016 10:07" } }

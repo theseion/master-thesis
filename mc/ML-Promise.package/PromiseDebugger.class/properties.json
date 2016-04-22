@@ -1,0 +1,14 @@
+{
+	"category" : "ML-Promise-Debugger",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PromiseDebugger",
+	"pools" : [
+		 ],
+	"super" : "GTGenericStackDebugger",
+	"type" : "normal" }
