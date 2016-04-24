@@ -2,8 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"combineStacks" : "MaxLeske 4/23/2016 17:32",
+		"combineStacks" : "MaxLeske 4/24/2016 17:37",
 		"debugSession" : "MaxLeske 4/24/2016 10:39",
+		"interceptReturnContext" : "MaxLeske 4/24/2016 17:38",
+		"interceptReturnContextForSender:" : "MaxLeske 4/24/2016 17:38",
 		"interceptReturnContextWithSelector:sender:" : "MaxLeske 4/23/2016 15:45",
 		"interceptReturnFromNewExceptionBottomContext" : "MaxLeske 4/24/2016 17:10",
 		"interceptReturnToNewOriginTopContext" : "MaxLeske 4/24/2016 17:11",

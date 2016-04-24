@@ -4,10 +4,11 @@
 	"instance" : {
 		"contextStore" : "MaxLeske 4/23/2016 12:01",
 		"isContextPostMortem:" : "MaxLeske 4/23/2016 15:01",
-		"process" : "MaxLeske 4/22/2016 18:01",
-		"process:context:" : "MaxLeske 4/22/2016 18:01",
 		"promise" : "MaxLeske 4/23/2016 11:54",
 		"promise:" : "MaxLeske 4/23/2016 11:54",
-		"resumeProcess" : "MaxLeske 4/22/2016 18:01",
-		"stepOver:" : "MaxLeske 4/24/2016 17:18",
+		"restart:" : "MaxLeske 4/24/2016 17:26",
+		"resume" : "MaxLeske 4/24/2016 17:28",
+		"stepInto:" : "MaxLeske 4/24/2016 17:45",
+		"stepOver:" : "MaxLeske 4/24/2016 17:45",
+		"stepThrough:" : "MaxLeske 4/24/2016 18:04",
 		"terminate" : "MaxLeske 4/22/2016 18:05" } }
