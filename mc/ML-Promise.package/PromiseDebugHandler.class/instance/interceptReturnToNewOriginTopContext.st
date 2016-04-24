@@ -1,6 +1,7 @@
 simulation
 interceptReturnToNewOriginTopContext
-	| realSender |
+	<filterTopContexts>
+	"| realSender |
 	realSender := self contextStore realOriginTopContext.
-	thisContext swapSender: realSender.
-	^ thisContext top
+	thisContext swapSender: realSender."
+	^ thisContext pop
