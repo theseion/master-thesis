@@ -1,0 +1,3 @@
+accessing
+realSenderOfNewExceptionBottomContext: aContext
+	realSenderOfNewExceptionBottomContext := aContext

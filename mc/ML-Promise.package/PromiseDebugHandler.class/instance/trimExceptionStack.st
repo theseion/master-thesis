@@ -9,4 +9,5 @@ trimExceptionStack
 				"remote"
 				ctxt sender selector = #executeFor: ] ] ].
 	context ifNil: [ ^ self ].
-	context swapSender: nil
+	
+	self contextStore	realSenderOfNewExceptionBottomContext: (context swapSender: nil)

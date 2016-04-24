@@ -7,7 +7,11 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"exceptionContext",
-		"originContext" ],
+		"originContext",
+		"receiverMap",
+		"senderMap",
+		"realOriginTopContext",
+		"realSenderOfNewExceptionBottomContext" ],
 	"name" : "PromiseContextStore",
 	"pools" : [
 		 ],

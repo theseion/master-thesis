@@ -1,9 +1,13 @@
 {
 	"class" : {
-		 },
+		"for:" : "MaxLeske 4/23/2016 11:53" },
 	"instance" : {
-		"isContextPostMortem:" : "MaxLeske 4/22/2016 17:55",
+		"contextStore" : "MaxLeske 4/23/2016 12:01",
+		"isContextPostMortem:" : "MaxLeske 4/23/2016 15:01",
 		"process" : "MaxLeske 4/22/2016 18:01",
 		"process:context:" : "MaxLeske 4/22/2016 18:01",
+		"promise" : "MaxLeske 4/23/2016 11:54",
+		"promise:" : "MaxLeske 4/23/2016 11:54",
 		"resumeProcess" : "MaxLeske 4/22/2016 18:01",
+		"stepOver:" : "MaxLeske 4/24/2016 11:15",
 		"terminate" : "MaxLeske 4/22/2016 18:05" } }

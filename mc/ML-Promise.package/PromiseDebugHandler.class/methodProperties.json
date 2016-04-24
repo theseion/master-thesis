@@ -2,10 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"combineStacks" : "MaxLeske 4/21/2016 14:06",
-		"interceptReturn" : "MaxLeske 4/21/2016 17:11",
-		"interceptReturnContextForSender:" : "MaxLeske 4/21/2016 17:12",
-		"run" : "MaxLeske 4/22/2016 18:50",
-		"senderOf:" : "MaxLeske 4/21/2016 17:10",
-		"trimExceptionStack" : "MaxLeske 4/21/2016 14:40",
-		"trimOriginStack" : "MaxLeske 4/21/2016 14:28" } }
+		"combineStacks" : "MaxLeske 4/23/2016 17:32",
+		"debugSession" : "MaxLeske 4/24/2016 10:39",
+		"interceptReturnContextWithSelector:sender:" : "MaxLeske 4/23/2016 15:45",
+		"interceptReturnFromNewExceptionBottomContext" : "MaxLeske 4/24/2016 11:17",
+		"interceptReturnToNewOriginTopContext" : "MaxLeske 4/23/2016 17:38",
+		"run" : "MaxLeske 4/24/2016 11:27",
+		"trimExceptionStack" : "MaxLeske 4/23/2016 17:18",
+		"trimOriginStack" : "MaxLeske 4/23/2016 15:49" } }

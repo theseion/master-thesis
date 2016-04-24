@@ -1,5 +1,10 @@
 private
 trimOriginStack
 	"Remove unwanted stack frames"
-	self contextStore originContext: (self contextStore originContext findContextSuchThat: [ :ctxt |
-		ctxt method hasPragmaNamed: #promiseEntryPoint ]) sender copyStack
+	| entryPoint |
+	entryPoint := self contextStore originContext findContextSuchThat: [ :ctxt |
+		ctxt method hasPragmaNamed: #promiseEntryPoint ].
+	
+	self contextStore
+		realOriginTopContext: self contextStore originContext;
+		originContext: entryPoint sender
