@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"absolutePathFrom:" : "MaxLeske 5/19/2016 17:37",
+		"basicRunAnalysisIn:" : "MaxLeske 5/19/2016 17:34",
+		"checkResult:" : "MaxLeske 5/19/2016 17:32",
+		"connection" : "MaxLeske 5/17/2016 07:18",
+		"doesPathExist:" : "MaxLeske 5/19/2016 17:36",
+		"informUserToWait" : "MaxLeske 5/19/2016 17:32",
+		"privateRunAnalysisOnPath:" : "MaxLeske 5/19/2016 17:36",
+		"runAnalysisOnPath:" : "MaxLeske 5/19/2016 17:34" },
+	"instance" : {
+		 } }

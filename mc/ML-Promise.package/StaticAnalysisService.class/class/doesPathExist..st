@@ -1,0 +1,3 @@
+private
+doesPathExist: absolutePath
+	^ false

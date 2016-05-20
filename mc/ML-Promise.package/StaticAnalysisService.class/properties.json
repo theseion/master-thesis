@@ -1,0 +1,14 @@
+{
+	"category" : "ML-Promise-Examples",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "StaticAnalysisService",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
