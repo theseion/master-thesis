@@ -1,12 +1,12 @@
 {
 	"class" : {
-		"absolutePathFrom:" : "MaxLeske 5/19/2016 17:37",
-		"basicRunAnalysisIn:" : "MaxLeske 5/19/2016 17:34",
-		"checkResult:" : "MaxLeske 5/19/2016 17:32",
-		"connection" : "MaxLeske 5/20/2016 14:34",
-		"doesPathExist:" : "MaxLeske 5/19/2016 17:36",
-		"informUserToWait" : "MaxLeske 5/19/2016 17:32",
-		"privateRunAnalysisOnPath:" : "MaxLeske 5/19/2016 17:36",
-		"runAnalysisOnPath:" : "MaxLeske 5/19/2016 17:34" },
+		"runAnalysisOnPath:" : "MaxLeske 5/21/2016 18:10" },
 	"instance" : {
-		 } }
+		"absolutePathFrom:" : "MaxLeske 5/21/2016 18:09",
+		"basicRunAnalysisIn:" : "MaxLeske 5/21/2016 18:09",
+		"checkResult:" : "MaxLeske 5/21/2016 18:09",
+		"connection" : "MaxLeske 5/21/2016 18:09",
+		"doesPathExist:" : "MaxLeske 5/21/2016 18:09",
+		"informUserToWait" : "MaxLeske 5/21/2016 18:09",
+		"privateRunAnalysisOnPath:" : "MaxLeske 5/21/2016 18:16",
+		"runAnalysisOnPath:" : "MaxLeske 5/21/2016 18:11" } }
