@@ -1,3 +1,7 @@
-*ml-promise-examples
-remotePromiseOn: connectionParams
-	^ self remotePromise
+*ml-promise
+remotePromiseOn: aConnection
+	<promiseEntryPoint>
+	^ RemotePromise new
+		run: self cleanCopy with: aConnection;
+		openDebuggerOnError;
+		yourself

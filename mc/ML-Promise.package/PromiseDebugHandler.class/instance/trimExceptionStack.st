@@ -7,7 +7,10 @@ trimExceptionStack
 			"local"
 			(ctxt sender method hasPragmaNamed: #promiseRunMethod) or: [
 				"remote"
-				ctxt sender selector = #executeFor: ] ] ].
+				(ctxt sender sender selector = #evaluate: and: [
+					ctxt sender sender receiver name = #RemotePromise]) or: [
+				ctxt sender receiver isMessageSend and: [
+					ctxt sender sender selector = #executeFor: ] ] ] ] ].
 	context ifNil: [ ^ self ].
 	
 	self contextStore	realSenderOfNewExceptionBottomContext: (context swapSender: nil)

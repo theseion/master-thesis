@@ -13,8 +13,8 @@ run
 	
 	UIManager default defer: [
 		PromiseDebugger
-		openOn: self debugSession
-		withFullView: true ].
+			openOn: self debugSession
+			withFullView: true ].
 	"This is the promise process. It must not be resumed until the debugger is closed.
 	Otherwise the waiting process will be woken up."
 	activeProcess := Processor activeProcess.

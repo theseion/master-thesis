@@ -1,9 +1,7 @@
 private
 handleException: anException
 	| exceptionContext |
-	exceptionContext := anException isGhost
-		ifTrue: [ anException signalContext ]
-		ifFalse: [ anException signalContext copyStack ].
+	exceptionContext := self reifyContextsOf: anException.
 	anException signalContext: exceptionContext.
 	"We're not actively returning to that context but it is now
 	the top context. Therefore it needs to have a return value."
