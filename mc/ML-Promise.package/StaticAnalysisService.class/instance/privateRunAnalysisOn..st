@@ -1,5 +1,5 @@
 private
-privateRunAnalysisOnPath: absolutePath
+privateRunAnalysisOn: absolutePath
 	(self doesPathExist: absolutePath) ifFalse: [
 		Error signal: 'Directory does not exist!' ].
 	
