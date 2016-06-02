@@ -14,17 +14,18 @@ stepOver: aContext
 
 	newContext := aContext isBottomContext
 		ifTrue: [
+			"let the process terminate itself"
 			interruptedProcess resume.
 			interruptedProcess := self contextStore originProcess.
 			interruptedProcess suspendedContext ]
-		ifFalse: [ interruptedProcess completeStep: aContext ].
-	"self haltIf: [ newContext isNil or: [ newContext selector = #run and: [ newContext receiver class = PromiseDebugHandler ] ] ]."
+		ifFalse: [
+			(stack includes: aContext)
+				ifTrue: [ interruptedProcess completeStep: aContext ]
+				ifFalse: [ interruptedProcess complete: aContext ] ].
+
 	(newContext ~= aContext and: [
 		stack includes: newContext]) ifFalse: [
-			self stepOver: newContext ].
-	
-	(stack includes: newContext) ifFalse: [
-		newContext := interruptedProcess complete: newContext ].
+			^ self stepOver: newContext ].
 
 	self updateContextTo:  
 		(newContext == aContext
