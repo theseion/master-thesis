@@ -1,17 +1,17 @@
 private
 trimmedExceptionStack
 	"Remove unwanted stack frames"
-	| counter |
-	counter := 0.
-	self contextStore exceptionContext findContextSuchThat: [ :ctxt |
-		counter := counter + 1.
-		ctxt sender notNil and: [
-			"local"
-			(ctxt sender method hasPragmaNamed: #promiseRunMethod) or: [
-				"remote"
-				(ctxt sender selector = #evaluate: and: [
-					ctxt sender receiver name = #RemotePromise]) or: [
-				ctxt sender receiver isMessageSend and: [
-					ctxt sender sender selector = #executeFor: ] ] ] ] ].
+	| stack context |
+	stack := OrderedCollection new.
+	"escape when the promise process is no longer part of the virtual process"
+	self contextStore originProcess == interruptedProcess ifTrue: [ ^ stack ].
+	
+	context := interruptedContext.
+	[
+		context isNil or: [
+			(self isLocalRunMethod: context) or: [
+				self isRemoteRunMethod: context ] ] ] whileFalse: [
+					stack addLast: context.
+					context := context sender ].
 
-	^ self contextStore exceptionContext stackOfSize: counter
+	^ stack

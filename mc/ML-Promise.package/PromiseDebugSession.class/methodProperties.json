@@ -1,20 +1,22 @@
 {
 	"instance" : {
 		"terminate" : "MaxLeske 4/22/2016 18:05",
-		"trimmedExceptionStack" : "MaxLeske 5/31/2016 21:50",
+		"isRemoteRunMethod:" : "MaxLeske 6/2/2016 11:54",
+		"trimmedExceptionStack" : "MaxLeske 6/2/2016 11:49",
 		"restart:" : "MaxLeske 4/24/2016 17:26",
-		"isContextPostMortem:" : "MaxLeske 4/23/2016 15:01",
-		"promise:" : "MaxLeske 4/23/2016 11:54",
+		"isContextPostMortem:" : "MaxLeske 6/2/2016 11:46",
 		"contextStore" : "MaxLeske 4/23/2016 12:01",
-		"trimmedOriginStack" : "MaxLeske 5/31/2016 21:39",
+		"promise:" : "MaxLeske 4/23/2016 11:54",
+		"trimmedOriginStack" : "MaxLeske 6/2/2016 11:46",
 		"promise" : "MaxLeske 4/23/2016 11:54",
-		"stepOver:" : "MaxLeske 4/24/2016 17:45",
 		"resume" : "MaxLeske 4/24/2016 17:28",
+		"stepOver:" : "MaxLeske 6/2/2016 11:45",
 		"stack" : "MaxLeske 5/31/2016 21:49",
 		"stepInto:" : "MaxLeske 4/24/2016 17:45",
-		"stepThrough:" : "MaxLeske 4/24/2016 18:04"
+		"stepThrough:" : "MaxLeske 4/24/2016 18:04",
+		"isLocalRunMethod:" : "MaxLeske 6/2/2016 11:54"
 	},
 	"class" : {
-		"for:" : "MaxLeske 4/23/2016 11:53"
+		"for:" : "MaxLeske 6/2/2016 11:56"
 	}
 }

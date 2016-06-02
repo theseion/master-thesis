@@ -1,15 +1,9 @@
 operations
 run
 	| activeProcess |
-	"ensure that the promise can be resolved when proceeding execution
-	of the caller process"
 	UIManager default class = NonInteractiveUIManager ifTrue: [
 		ProvideAnswerNotification signal: 'Opening Debugger'.
 		^ self ].
-	"self
-		trimExceptionStack;
-		trimOriginStack;
-		combineStacks."
 	
 	UIManager default defer: [
 		PromiseDebugger

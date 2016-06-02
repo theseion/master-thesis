@@ -2,7 +2,11 @@ private
 trimmedOriginStack
 	"Remove unwanted stack frames"
 	| entryPoint |
-	entryPoint := self contextStore originContext findContextSuchThat: [ :ctxt |
+	self contextStore originProcess suspendedContext ifNil: [ ^ #() ].
+	
+	entryPoint := self contextStore originProcess suspendedContext findContextSuchThat: [ :ctxt |
 		ctxt method hasPragmaNamed: #promiseEntryPoint ].
 	
-	^ entryPoint sender stack
+	^ (entryPoint
+		ifNil: [ self contextStore originProcess suspendedContext ]
+		ifNotNil: [ :ctxt | ctxt sender ]) stack

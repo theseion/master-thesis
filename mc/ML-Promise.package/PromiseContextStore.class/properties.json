@@ -11,7 +11,8 @@
 		"receiverMap",
 		"senderMap",
 		"realOriginTopContext",
-		"realSenderOfNewExceptionBottomContext"
+		"realSenderOfNewExceptionBottomContext",
+		"originProcess"
 	],
 	"name" : "PromiseContextStore",
 	"type" : "normal"

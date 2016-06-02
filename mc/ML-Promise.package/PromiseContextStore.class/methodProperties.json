@@ -1,17 +1,11 @@
 {
 	"instance" : {
-		"realOriginTopContext" : "MaxLeske 4/23/2016 17:29",
-		"realOriginTopContext:" : "MaxLeske 4/23/2016 17:17",
-		"originContext" : "MaxLeske 4/21/2016 13:57",
-		"hasExceptionContext" : "MaxLeske 4/21/2016 13:59",
-		"realSenderOfNewExceptionBottomContext" : "MaxLeske 4/23/2016 17:19",
-		"combinedContext:" : "MaxLeske 4/21/2016 14:05",
-		"freezeOriginContext:" : "MaxLeske 4/21/2016 14:17",
+		"originProcess" : "MaxLeske 6/2/2016 11:47",
+		"freezeOrigin" : "MaxLeske 6/2/2016 11:48",
 		"exceptionContext:" : "MaxLeske 4/21/2016 13:57",
-		"realSenderOfNewExceptionBottomContext:" : "MaxLeske 4/23/2016 17:19",
-		"combinedContext" : "MaxLeske 4/21/2016 14:05",
 		"exceptionContext" : "MaxLeske 4/21/2016 13:57",
-		"originContext:" : "MaxLeske 4/21/2016 14:28"
+		"hasExceptionContext" : "MaxLeske 4/21/2016 13:59",
+		"originContext" : "MaxLeske 4/21/2016 13:57"
 	},
 	"class" : { }
 }
