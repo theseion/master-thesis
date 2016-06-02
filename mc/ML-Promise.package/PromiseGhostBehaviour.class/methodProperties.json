@@ -1,6 +1,9 @@
 {
-	"class" : {
-		"default" : "MaxLeske 3/12/2016 17:58" },
 	"instance" : {
-		"currentMetaLevel" : "MaxLeske 3/12/2016 16:24",
-		"send:to:" : "MaxLeske 3/12/2016 18:36" } }
+		"send:to:" : "MaxLeske 3/12/2016 18:36",
+		"currentMetaLevel" : "MaxLeske 3/12/2016 16:24"
+	},
+	"class" : {
+		"default" : "MaxLeske 3/12/2016 17:58"
+	}
+}

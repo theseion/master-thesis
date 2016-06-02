@@ -1,5 +1,8 @@
 {
-	"class" : {
-		"evaluate:" : "MaxLeske 5/20/2016 18:55" },
 	"instance" : {
-		"run:with:" : "MaxLeske 5/21/2016 14:33" } }
+		"run:with:" : "MaxLeske 5/21/2016 14:33"
+	},
+	"class" : {
+		"evaluate:" : "MaxLeske 5/20/2016 18:55"
+	}
+}

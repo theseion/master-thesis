@@ -1,23 +1,26 @@
 {
+	"instance" : {
+		"wait" : "MaxLeske 4/17/2016 17:07",
+		"hasTimeout" : "MaxLeske 4/17/2016 15:33",
+		"debug" : "MaxLeske 4/21/2016 13:59",
+		"openDebuggerOnError" : "MaxLeske 4/17/2016 11:36",
+		"contextStore" : "MaxLeske 4/21/2016 13:55",
+		"registry" : "MaxLeske 1/29/2016 10:53",
+		"signal" : "MaxLeske 2/4/2016 17:29",
+		"hasException" : "MaxLeske 4/21/2016 13:58",
+		"initialize" : "MaxLeske 4/21/2016 13:54",
+		"timeout:" : "MaxLeske 4/17/2016 15:11",
+		"defaultReturnValue" : "MaxLeske 4/21/2016 13:51",
+		"value" : "MaxLeske 4/17/2016 13:29",
+		"withExceptionHandler:" : "MaxLeske 4/21/2016 13:45",
+		"run" : "MaxLeske 4/17/2016 13:20",
+		"onTimeoutDo:" : "MaxLeske 4/17/2016 17:06",
+		"defaultReturnValue:" : "MaxLeske 4/17/2016 11:38",
+		"run:" : "MaxLeske 4/21/2016 14:40"
+	},
 	"class" : {
 		"exampleDebugLocalException" : "MaxLeske 4/17/2016 11:36",
 		"exampleDebugRemoteException" : "MaxLeske 4/17/2016 11:36",
-		"registry" : "MaxLeske 4/17/2016 16:51" },
-	"instance" : {
-		"contextStore" : "MaxLeske 4/21/2016 13:55",
-		"debug" : "MaxLeske 4/21/2016 13:59",
-		"defaultReturnValue" : "MaxLeske 4/21/2016 13:51",
-		"defaultReturnValue:" : "MaxLeske 4/17/2016 11:38",
-		"hasException" : "MaxLeske 4/21/2016 13:58",
-		"hasTimeout" : "MaxLeske 4/17/2016 15:33",
-		"initialize" : "MaxLeske 4/21/2016 13:54",
-		"onTimeoutDo:" : "MaxLeske 4/17/2016 17:06",
-		"openDebuggerOnError" : "MaxLeske 4/17/2016 11:36",
-		"registry" : "MaxLeske 1/29/2016 10:53",
-		"run" : "MaxLeske 4/17/2016 13:20",
-		"run:" : "MaxLeske 4/21/2016 14:40",
-		"signal" : "MaxLeske 2/4/2016 17:29",
-		"timeout:" : "MaxLeske 4/17/2016 15:11",
-		"value" : "MaxLeske 4/17/2016 13:29",
-		"wait" : "MaxLeske 4/17/2016 17:07",
-		"withExceptionHandler:" : "MaxLeske 4/21/2016 13:45" } }
+		"registry" : "MaxLeske 4/17/2016 16:51"
+	}
+}

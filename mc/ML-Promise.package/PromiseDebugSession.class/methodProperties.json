@@ -1,15 +1,20 @@
 {
-	"class" : {
-		"for:" : "MaxLeske 4/23/2016 11:53" },
 	"instance" : {
-		"contextStore" : "MaxLeske 4/23/2016 12:01",
-		"isContextPostMortem:" : "MaxLeske 4/23/2016 15:01",
-		"promise" : "MaxLeske 4/23/2016 11:54",
-		"promise:" : "MaxLeske 4/23/2016 11:54",
+		"terminate" : "MaxLeske 4/22/2016 18:05",
+		"trimmedExceptionStack" : "MaxLeske 5/31/2016 21:50",
 		"restart:" : "MaxLeske 4/24/2016 17:26",
-		"resume" : "MaxLeske 4/24/2016 17:28",
-		"stack" : "MaxLeske 5/21/2016 15:46",
-		"stepInto:" : "MaxLeske 4/24/2016 17:45",
+		"isContextPostMortem:" : "MaxLeske 4/23/2016 15:01",
+		"promise:" : "MaxLeske 4/23/2016 11:54",
+		"contextStore" : "MaxLeske 4/23/2016 12:01",
+		"trimmedOriginStack" : "MaxLeske 5/31/2016 21:39",
+		"promise" : "MaxLeske 4/23/2016 11:54",
 		"stepOver:" : "MaxLeske 4/24/2016 17:45",
-		"stepThrough:" : "MaxLeske 4/24/2016 18:04",
-		"terminate" : "MaxLeske 4/22/2016 18:05" } }
+		"resume" : "MaxLeske 4/24/2016 17:28",
+		"stack" : "MaxLeske 5/31/2016 21:49",
+		"stepInto:" : "MaxLeske 4/24/2016 17:45",
+		"stepThrough:" : "MaxLeske 4/24/2016 18:04"
+	},
+	"class" : {
+		"for:" : "MaxLeske 4/23/2016 11:53"
+	}
+}

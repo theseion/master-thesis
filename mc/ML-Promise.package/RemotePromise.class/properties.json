@@ -1,14 +1,11 @@
 {
-	"category" : "ML-Promise",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "RemotePromise",
-	"pools" : [
-		 ],
 	"super" : "Promise",
-	"type" : "normal" }
+	"category" : "ML-Promise",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "RemotePromise",
+	"type" : "normal"
+}

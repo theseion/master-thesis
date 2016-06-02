@@ -6,10 +6,10 @@ run
 	UIManager default class = NonInteractiveUIManager ifTrue: [
 		ProvideAnswerNotification signal: 'Opening Debugger'.
 		^ self ].
-	self
+	"self
 		trimExceptionStack;
 		trimOriginStack;
-		combineStacks.
+		combineStacks."
 	
 	UIManager default defer: [
 		PromiseDebugger

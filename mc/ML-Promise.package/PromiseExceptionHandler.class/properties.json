@@ -1,14 +1,13 @@
 {
-	"category" : "ML-Promise",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"block" ],
-	"name" : "PromiseExceptionHandler",
-	"pools" : [
-		 ],
 	"super" : "PromiseHandler",
-	"type" : "normal" }
+	"category" : "ML-Promise",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"block"
+	],
+	"name" : "PromiseExceptionHandler",
+	"type" : "normal"
+}

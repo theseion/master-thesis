@@ -1,14 +1,11 @@
 {
-	"category" : "ML-Promise-Debugger",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "PromiseDebuggerHelp",
-	"pools" : [
-		 ],
 	"super" : "GTDebuggerHelp",
-	"type" : "normal" }
+	"category" : "ML-Promise-Debugger",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PromiseDebuggerHelp",
+	"type" : "normal"
+}

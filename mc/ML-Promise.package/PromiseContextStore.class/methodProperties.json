@@ -1,16 +1,17 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"combinedContext" : "MaxLeske 4/21/2016 14:05",
-		"combinedContext:" : "MaxLeske 4/21/2016 14:05",
-		"exceptionContext" : "MaxLeske 4/21/2016 13:57",
-		"exceptionContext:" : "MaxLeske 4/21/2016 13:57",
-		"freezeOriginContext:" : "MaxLeske 4/21/2016 14:17",
-		"hasExceptionContext" : "MaxLeske 4/21/2016 13:59",
-		"originContext" : "MaxLeske 4/21/2016 13:57",
-		"originContext:" : "MaxLeske 4/21/2016 14:28",
 		"realOriginTopContext" : "MaxLeske 4/23/2016 17:29",
 		"realOriginTopContext:" : "MaxLeske 4/23/2016 17:17",
+		"originContext" : "MaxLeske 4/21/2016 13:57",
+		"hasExceptionContext" : "MaxLeske 4/21/2016 13:59",
 		"realSenderOfNewExceptionBottomContext" : "MaxLeske 4/23/2016 17:19",
-		"realSenderOfNewExceptionBottomContext:" : "MaxLeske 4/23/2016 17:19" } }
+		"combinedContext:" : "MaxLeske 4/21/2016 14:05",
+		"freezeOriginContext:" : "MaxLeske 4/21/2016 14:17",
+		"exceptionContext:" : "MaxLeske 4/21/2016 13:57",
+		"realSenderOfNewExceptionBottomContext:" : "MaxLeske 4/23/2016 17:19",
+		"combinedContext" : "MaxLeske 4/21/2016 14:05",
+		"exceptionContext" : "MaxLeske 4/21/2016 13:57",
+		"originContext:" : "MaxLeske 4/21/2016 14:28"
+	},
+	"class" : { }
+}

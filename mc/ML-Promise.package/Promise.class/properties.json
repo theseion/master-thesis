@@ -1,10 +1,12 @@
 {
-	"category" : "ML-Promise",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		"Registry" ],
 	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "ML-Promise",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"Registry"
+	],
 	"instvars" : [
 		"semaphore",
 		"isSignaled",
@@ -14,9 +16,8 @@
 		"wasStarted",
 		"timeout",
 		"onTimeoutBlock",
-		"contextStore" ],
+		"contextStore"
+	],
 	"name" : "Promise",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

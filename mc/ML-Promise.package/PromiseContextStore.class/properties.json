@@ -1,19 +1,18 @@
 {
-	"category" : "ML-Promise",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "ML-Promise",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"exceptionContext",
 		"originContext",
 		"receiverMap",
 		"senderMap",
 		"realOriginTopContext",
-		"realSenderOfNewExceptionBottomContext" ],
+		"realSenderOfNewExceptionBottomContext"
+	],
 	"name" : "PromiseContextStore",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

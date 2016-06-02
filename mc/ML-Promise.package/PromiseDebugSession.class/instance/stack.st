@@ -1,4 +1,5 @@
-as yet unclassified
+accessing
 stack
-	^ super stack reject: [ :context |
-		context method hasPragmaNamed: 'filterContexts' ]
+	^ self trimmedExceptionStack
+		addAll: self trimmedOriginStack;
+		yourself

@@ -1,8 +1,11 @@
 {
-	"class" : {
-		"handle:" : "MaxLeske 4/21/2016 14:10" },
 	"instance" : {
-		"contextStore" : "MaxLeske 4/21/2016 14:13",
-		"promise" : "MaxLeske 4/21/2016 14:08",
 		"promise:" : "MaxLeske 4/21/2016 14:09",
-		"run" : "MaxLeske 4/21/2016 14:09" } }
+		"run" : "MaxLeske 4/21/2016 14:09",
+		"promise" : "MaxLeske 4/21/2016 14:08",
+		"contextStore" : "MaxLeske 4/21/2016 14:13"
+	},
+	"class" : {
+		"handle:" : "MaxLeske 4/21/2016 14:10"
+	}
+}

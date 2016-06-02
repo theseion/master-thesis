@@ -1,14 +1,15 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"combineStacks" : "MaxLeske 4/24/2016 17:37",
-		"debugSession" : "MaxLeske 4/24/2016 10:39",
-		"interceptReturnContext" : "MaxLeske 4/24/2016 17:38",
-		"interceptReturnContextForSender:" : "MaxLeske 4/24/2016 17:38",
-		"interceptReturnContextWithSelector:sender:" : "MaxLeske 4/23/2016 15:45",
+		"trimOriginStack" : "MaxLeske 4/23/2016 15:49",
 		"interceptReturnFromNewExceptionBottomContext" : "MaxLeske 4/24/2016 17:10",
-		"interceptReturnToNewOriginTopContext" : "MaxLeske 4/24/2016 17:11",
-		"run" : "MaxLeske 5/20/2016 18:25",
 		"trimExceptionStack" : "MaxLeske 5/21/2016 21:02",
-		"trimOriginStack" : "MaxLeske 4/23/2016 15:49" } }
+		"interceptReturnContextForSender:" : "MaxLeske 4/24/2016 17:38",
+		"interceptReturnToNewOriginTopContext" : "MaxLeske 4/24/2016 17:11",
+		"interceptReturnContext" : "MaxLeske 4/24/2016 17:38",
+		"debugSession" : "MaxLeske 4/24/2016 10:39",
+		"run" : "MaxLeske 5/31/2016 21:34",
+		"interceptReturnContextWithSelector:sender:" : "MaxLeske 4/23/2016 15:45",
+		"combineStacks" : "MaxLeske 4/24/2016 17:37"
+	},
+	"class" : { }
+}

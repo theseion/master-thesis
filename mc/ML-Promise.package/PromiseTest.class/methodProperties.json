@@ -1,13 +1,14 @@
 {
-	"class" : {
-		 },
 	"instance" : {
+		"testOnTimeoutDo" : "MaxLeske 4/17/2016 17:12",
+		"testTimeout" : "MaxLeske 4/17/2016 15:28",
+		"testWeakRegistry" : "MaxLeske 4/17/2016 17:04",
+		"testDefaultReturnValueWithException" : "MaxLeske 4/17/2016 13:23",
+		"testOpenDebuggerOnError" : "MaxLeske 4/17/2016 15:38",
 		"testAsynchoronism" : "MaxLeske 4/17/2016 15:41",
 		"testDebug" : "MaxLeske 4/17/2016 15:38",
-		"testDefaultReturnValueWithException" : "MaxLeske 4/17/2016 13:23",
 		"testDefaultReturnValueWithoutException" : "MaxLeske 4/17/2016 13:18",
-		"testOnTimeoutDo" : "MaxLeske 4/17/2016 17:12",
-		"testOpenDebuggerOnAssertionFailure" : "MaxLeske 5/16/2016 21:08",
-		"testOpenDebuggerOnError" : "MaxLeske 4/17/2016 15:38",
-		"testTimeout" : "MaxLeske 4/17/2016 15:28",
-		"testWeakRegistry" : "MaxLeske 4/17/2016 17:04" } }
+		"testOpenDebuggerOnAssertionFailure" : "MaxLeske 5/16/2016 21:08"
+	},
+	"class" : { }
+}

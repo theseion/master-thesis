@@ -1,16 +1,15 @@
 {
-	"category" : "ML-Promise",
-	"classinstvars" : [
-		 ],
 	"classtraitcomposition" : "GHTMinimalGhost classTrait",
-	"classvars" : [
-		 ],
-	"commentStamp" : "",
+	"classvars" : [ ],
 	"instvars" : [
-		"object" ],
+		"object"
+	],
 	"name" : "PromiseGhost",
-	"pools" : [
-		 ],
+	"commentStamp" : "",
 	"super" : "GHObjectGhost",
 	"traitcomposition" : "GHTMinimalGhost",
-	"type" : "normal" }
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "ML-Promise"
+}
