@@ -7,5 +7,7 @@ stepWith: aBlock inContext: aContext
 	[ newContext := self
 		stepWith: aBlock
 		inContext: newContext
-		inStack ] doWhileFalse: [ 
-			filteredStack includes: newContext ]
+		inStack: filteredStack ] doWhileFalse: [ 
+			filteredStack includes: newContext ].
+		
+	^ newContext
