@@ -4,9 +4,9 @@ trimmedOriginStack
 	| entryPoint |
 	self contextStore originProcess suspendedContext ifNil: [ ^ #() ].
 	
-	entryPoint := self contextStore originProcess suspendedContext findContextSuchThat: [ :ctxt |
+	entryPoint := self contextStore originContext findContextSuchThat: [ :ctxt |
 		ctxt method hasPragmaNamed: #promiseEntryPoint ].
-	
+
 	^ (entryPoint
 		ifNil: [ self contextStore originProcess suspendedContext ]
 		ifNotNil: [ :ctxt | ctxt sender ]) stack

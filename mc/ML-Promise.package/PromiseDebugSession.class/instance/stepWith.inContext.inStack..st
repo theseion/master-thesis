@@ -1,6 +1,7 @@
 private
 stepWith: aBlock inContext: aContext inStack: aCollection
-	^ aContext isBottomContext
+	^ (aContext isBottomContext or: [
+		(interruptedProcess suspendedContext hasContext: aContext) not ])
 		ifTrue: [
 			"let the process terminate itself"
 			interruptedProcess resume.

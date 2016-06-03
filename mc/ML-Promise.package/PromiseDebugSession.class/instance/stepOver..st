@@ -4,7 +4,6 @@ stepOver: aContext
 	after the invoked method returns."
 	
 	| newContext |
-	
 	(self isContextPostMortem: aContext) ifTrue: [^ self].
 
 	newContext := self

@@ -18,9 +18,13 @@ isContextPostMortem: selectedContext
 	e) if the origin process is *not* the one waiting on the exception process
 		then it has not been suspended and hence all contexts must be treated as dead
 	e) the frames of the exception process are either all live or all dead"
-	^ (self contextStore originProcess suspendedContext notNil and: [
+	^ ((interruptedProcess suspendedContext notNil and: [
+		interruptedProcess suspendedContext hasContext: selectedContext ]) or: [
+		self contextStore originProcess suspendedContext notNil and: [
+			self contextStore originProcess suspendedContext hasContext: selectedContext ] ]) not
+	" (self contextStore originProcess suspendedContext notNil and: [
 		self contextStore originProcess suspendedContext hasContext: selectedContext ])
 		ifFalse: [
 			self flag: 'check if exception process is still alive before returning false here'.
 			false ]
-		ifTrue: [ super isContextPostMortem: self contextStore originProcess suspendedContext ]
+		ifTrue: [ super isContextPostMortem: selectedContext ]"
