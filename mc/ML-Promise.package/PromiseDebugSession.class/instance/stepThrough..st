@@ -9,10 +9,14 @@ stepThrough: aContext
 	self flag: 'This doesn''t work yet. #home answers an instance variable that is bound to a context
 	that is not in the chain since #copyTo: does not update closures'.
 	top := interruptedProcess suspendedContext.
-	((top willReturn or: [
+	"((top willReturn or: [
 		top willBlockReturn ]) and: [
 			top sender method hasPragmaNamed: #filterContexts ]) ifTrue: [
-				self stepOver: top ].
+				self stepOver: top ]."
+	top := self stepInto: aContext.
+	(top == aContext or: [
+		top sender ~= aContext ]) ifTrue: [ ^ self ].
+	
 	interruptedProcess stepToHome: aContext.
 	self updateContextTo: (self stepToFirstInterestingBytecodeIn: interruptedProcess).
 			

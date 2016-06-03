@@ -5,13 +5,9 @@ stepInto: aContext
 
 	(self isContextPostMortem: aContext) ifTrue: [^ self].
 
-	aContext isBottomContext
-		ifTrue: [
-			"let the process terminate itself"
-			interruptedProcess resume.
-			interruptedProcess := self contextStore originProcess.
-			interruptedProcess suspendedContext ]
-		ifFalse: [
+	self
+		switchProcessFor: aContext
+		or: [
 			aContext willSend
 				ifTrue: [ interruptedProcess step: aContext ]
 				ifFalse: [ ^ self stepOver: aContext ] ].

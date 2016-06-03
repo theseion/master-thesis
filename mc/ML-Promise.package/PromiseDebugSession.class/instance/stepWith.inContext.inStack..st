@@ -1,13 +1,8 @@
 private
 stepWith: aBlock inContext: aContext inStack: aCollection
-	^ (aContext isBottomContext or: [
-		(interruptedProcess suspendedContext hasContext: aContext) not ])
-		ifTrue: [
-			"let the process terminate itself"
-			interruptedProcess resume.
-			interruptedProcess := self contextStore originProcess.
-			interruptedProcess suspendedContext ]
-		ifFalse: [
+	^ self
+		switchProcessFor: aContext
+		or: [
 			(aCollection includes: aContext)
 				ifTrue: [
 					aBlock
