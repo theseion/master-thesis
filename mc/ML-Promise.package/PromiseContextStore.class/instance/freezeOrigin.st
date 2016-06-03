@@ -1,4 +1,12 @@
 accessing
 freezeOrigin
+	| context |
 	originProcess := Processor activeProcess.
-	originContext := thisContext sender sender copyStack
+	originStack := OrderedCollection new.
+	originContext := thisContext findContextSuchThat: [ :ctxt |
+		ctxt method hasPragmaNamed: #promiseEntryPoint ].
+	
+	context := originContext.
+	[ context isNil ] whileFalse: [
+		originStack addLast: context.
+		context := context sender ]
