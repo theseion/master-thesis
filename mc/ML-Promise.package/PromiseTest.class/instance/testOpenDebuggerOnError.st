@@ -2,7 +2,7 @@ tests
 testOpenDebuggerOnError
 	| promise |
 	promise := [ 1/0 ] promise
-		openDebuggerOnError;
+		openDebuggerOnError: true;
 		yourself.
 	UIManager nonInteractiveDuring: [
 		self

@@ -1,15 +1,16 @@
 {
 	"instance" : {
-		"wait" : "MaxLeske 4/17/2016 17:07",
+		"openDebuggerOnError:" : "MaxLeske 6/3/2016 16:35",
+		"wait" : "MaxLeske 6/3/2016 16:33",
 		"hasTimeout" : "MaxLeske 4/17/2016 15:33",
 		"debug" : "MaxLeske 4/21/2016 13:59",
-		"openDebuggerOnError" : "MaxLeske 4/17/2016 11:36",
 		"contextStore" : "MaxLeske 4/21/2016 13:55",
 		"registry" : "MaxLeske 1/29/2016 10:53",
+		"timeout:" : "MaxLeske 4/17/2016 15:11",
 		"signal" : "MaxLeske 6/2/2016 11:48",
 		"hasException" : "MaxLeske 4/21/2016 13:58",
 		"initialize" : "MaxLeske 4/21/2016 13:54",
-		"timeout:" : "MaxLeske 4/17/2016 15:11",
+		"priority:" : "MaxLeske 6/3/2016 16:25",
 		"defaultReturnValue" : "MaxLeske 4/21/2016 13:51",
 		"value" : "MaxLeske 6/2/2016 11:48",
 		"withExceptionHandler:" : "MaxLeske 4/21/2016 13:45",
@@ -19,8 +20,8 @@
 		"run:" : "MaxLeske 6/2/2016 11:57"
 	},
 	"class" : {
-		"exampleDebugLocalException" : "MaxLeske 4/17/2016 11:36",
-		"exampleDebugRemoteException" : "MaxLeske 4/17/2016 11:36",
+		"exampleDebugLocalException" : "MaxLeske 6/3/2016 16:35",
+		"exampleDebugRemoteException" : "MaxLeske 6/3/2016 16:36",
 		"registry" : "MaxLeske 4/17/2016 16:51"
 	}
 }

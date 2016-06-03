@@ -2,7 +2,7 @@ tests
 testOpenDebuggerOnAssertionFailure
 	| promise |
 	promise := [ AssertionFailure signal ] promise
-		openDebuggerOnError;
+		openDebuggerOnError: true;
 		yourself.
 	UIManager nonInteractiveDuring: [
 		self

@@ -3,7 +3,7 @@ wait
 	| delay |
 	isSignaled ifTrue: [ ^ self ].
 	
-	wasStarted ifFalse: [ process resume ].
+	wasStarted ifFalse: [ self run ].
 	self hasTimeout
 		ifFalse: [ semaphore wait ]
 		ifTrue: [

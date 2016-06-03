@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "GHGhostBehaviour",
-	"category" : "ML-Promise",
+	"category" : "ML-Promise-Ghosts",
 	"classinstvars" : [
 		"default"
 	],

@@ -4,6 +4,6 @@ createPromiseFor: absolutePath
 	closure := [ self privateRunAnalysisOn: absolutePath ].
 	promise := closure remotePromiseOn: self connection.
 	^ promise
-		openDebuggerOnError;
+		openDebuggerOnError: true;
 		run;
 		yourself
