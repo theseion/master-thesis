@@ -1,6 +1,5 @@
 {
 	"instance" : {
-		"restart:" : "MaxLeske 4/24/2016 17:26",
 		"trimmedExceptionStack" : "MaxLeske 6/2/2016 11:49",
 		"isContextPostMortem:" : "MaxLeske 6/3/2016 08:54",
 		"resume" : "MaxLeske 4/24/2016 17:28",
@@ -9,6 +8,7 @@
 		"trimmedOriginStack" : "MaxLeske 6/3/2016 13:08",
 		"stepOver:" : "MaxLeske 6/3/2016 10:49",
 		"stepThrough:" : "MaxLeske 6/3/2016 13:11",
+		"unwindAndRestartToContext:" : "MaxLeske 6/3/2016 13:20",
 		"isLocalRunMethod:" : "MaxLeske 6/2/2016 11:54",
 		"stepWith:inContext:inStack:" : "MaxLeske 6/3/2016 09:32",
 		"stepWith:inContext:" : "MaxLeske 6/2/2016 15:11",
