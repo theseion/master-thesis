@@ -1,0 +1,3 @@
+accessing
+masterStack
+	^ masterStack

@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Process",
+	"category" : "ML-Threads",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"master",
+		"masterStackCopy",
+		"masterStack"
+	],
+	"name" : "UserProcess",
+	"type" : "normal"
+}

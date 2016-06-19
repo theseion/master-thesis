@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "DebugSession",
+	"category" : "ML-Threads-Debugger",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ThreadDebugSession",
+	"type" : "normal"
+}
