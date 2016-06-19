@@ -1,7 +1,17 @@
 {
 	"instance" : {
-		"filteredCombinedStack" : "MaxLeske 6/19/2016 10:42",
-		"stack" : "MaxLeske 6/19/2016 10:45"
+		"filteredCombinedStack" : "MaxLeske 6/19/2016 11:25",
+		"isContextPostMortem:" : "MaxLeske 6/19/2016 12:33",
+		"unwindAndRestartToContext:" : "MaxLeske 6/19/2016 11:38",
+		"switchProcessFor:or:" : "MaxLeske 6/19/2016 13:29",
+		"filteredMasterStack" : "MaxLeske 6/19/2016 14:48",
+		"filteredSlaveStack" : "MaxLeske 6/19/2016 11:33",
+		"stepOver:" : "MaxLeske 6/19/2016 14:56",
+		"stepWith:inContext:" : "MaxLeske 6/19/2016 11:38",
+		"stepInto:" : "MaxLeske 6/19/2016 11:38",
+		"stepThrough:" : "MaxLeske 6/19/2016 11:38",
+		"stepWith:inContext:inStack:" : "MaxLeske 6/19/2016 11:38",
+		"stack" : "MaxLeske 6/19/2016 14:47"
 	},
 	"class" : { }
 }

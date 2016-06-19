@@ -1,6 +1,5 @@
 private
 filteredCombinedStack
-
-	^ super stack
-		addAll: interruptedProcess masterStackCopy;
+	^ self filteredSlaveStack
+		addAll: self filteredMasterStack;
 		yourself
