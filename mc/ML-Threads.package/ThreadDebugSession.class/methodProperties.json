@@ -1,17 +1,19 @@
 {
 	"instance" : {
 		"filteredCombinedStack" : "MaxLeske 6/19/2016 11:25",
-		"isContextPostMortem:" : "MaxLeske 6/19/2016 12:33",
+		"canStepFrom:" : "MaxLeske 6/21/2016 16:37",
+		"process:context:" : "MaxLeske 6/21/2016 16:36",
+		"isContextPostMortem:" : "MaxLeske 6/21/2016 11:20",
+		"switchProcessFor:or:" : "MaxLeske 6/19/2016 17:38",
 		"unwindAndRestartToContext:" : "MaxLeske 6/19/2016 11:38",
-		"switchProcessFor:or:" : "MaxLeske 6/19/2016 13:29",
-		"filteredMasterStack" : "MaxLeske 6/19/2016 14:48",
-		"filteredSlaveStack" : "MaxLeske 6/19/2016 11:33",
-		"stepOver:" : "MaxLeske 6/19/2016 14:56",
-		"stepWith:inContext:" : "MaxLeske 6/19/2016 11:38",
+		"filteredSlaveStack" : "MaxLeske 6/19/2016 16:58",
+		"filteredMasterStack" : "MaxLeske 6/21/2016 11:12",
+		"stepOver:" : "MaxLeske 6/21/2016 16:46",
+		"stepWith:inContext:" : "MaxLeske 6/19/2016 16:00",
+		"stack" : "MaxLeske 6/19/2016 16:57",
 		"stepInto:" : "MaxLeske 6/19/2016 11:38",
 		"stepThrough:" : "MaxLeske 6/19/2016 11:38",
-		"stepWith:inContext:inStack:" : "MaxLeske 6/19/2016 11:38",
-		"stack" : "MaxLeske 6/19/2016 14:47"
+		"stepWith:inContext:inStack:" : "MaxLeske 6/19/2016 11:38"
 	},
 	"class" : { }
 }

@@ -4,11 +4,9 @@ stepOver: aContext
 	after the invoked method returns."
 	
 	| newContext |
-	(self isContextPostMortem: aContext) ifTrue: [^ self].
+	(self canStepFrom: aContext) ifFalse: [^ self].
 
-	newContext := self
-		stepWith: [ :process :context | process completeStep: context ]
-		inContext: aContext.
+	newContext := (exceptionProcessHolder holderForContext: aContext) completeStep.
 
 	self updateContextTo:  
 		(newContext == aContext

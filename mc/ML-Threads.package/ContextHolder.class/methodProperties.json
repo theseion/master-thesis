@@ -1,0 +1,19 @@
+{
+	"instance" : {
+		"next" : "MaxLeske 6/21/2016 16:21",
+		"hasNext" : "MaxLeske 6/21/2016 16:21",
+		"index" : "MaxLeske 6/21/2016 11:09",
+		"initializeWithProcess:context:andCopy:withIndex:" : "MaxLeske 6/21/2016 16:44",
+		"process" : "MaxLeske 6/21/2016 16:43",
+		"originalContext" : "MaxLeske 6/21/2016 08:43",
+		"isDead" : "MaxLeske 6/21/2016 11:09",
+		"isVisible" : "MaxLeske 6/21/2016 16:21",
+		"copyContext" : "MaxLeske 6/21/2016 08:43",
+		"next:" : "MaxLeske 6/21/2016 16:40",
+		"canStep" : "MaxLeske 6/21/2016 17:00",
+		"completeStep" : "MaxLeske 6/21/2016 16:49"
+	},
+	"class" : {
+		"forProcess:context:andCopy:withIndex:" : "MaxLeske 6/21/2016 16:44"
+	}
+}

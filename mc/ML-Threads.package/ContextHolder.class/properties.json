@@ -1,13 +1,18 @@
 {
 	"commentStamp" : "",
-	"super" : "Process",
+	"super" : "Object",
 	"category" : "ML-Threads",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"masterProcessHolder"
+		"original",
+		"copy",
+		"index",
+		"isVisible",
+		"next",
+		"process"
 	],
-	"name" : "UserProcess",
+	"name" : "ContextHolder",
 	"type" : "normal"
 }

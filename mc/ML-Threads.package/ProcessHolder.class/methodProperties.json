@@ -1,0 +1,15 @@
+{
+	"instance" : {
+		"findContextHolderSuchThat:" : "MaxLeske 6/21/2016 16:31",
+		"findNextContextHolder:suchThat:" : "MaxLeske 6/21/2016 11:04",
+		"stackStartingAt:" : "MaxLeske 6/21/2016 11:17",
+		"initializeWithProcess:" : "MaxLeske 6/21/2016 16:45",
+		"holderForContext:" : "MaxLeske 6/21/2016 16:47",
+		"hasContext:" : "MaxLeske 6/21/2016 16:48",
+		"canStepFrom:" : "MaxLeske 6/21/2016 16:47",
+		"process" : "MaxLeske 6/21/2016 08:26"
+	},
+	"class" : {
+		"for:" : "MaxLeske 6/21/2016 08:38"
+	}
+}

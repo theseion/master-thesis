@@ -8,6 +8,6 @@ stepWith: aBlock inContext: aContext
 		stepWith: aBlock
 		inContext: newContext
 		inStack: filteredStack ] doWhileFalse: [ 
-			filteredStack includes: newContext ].
+			self isContextPostMortem: newContext ].
 		
 	^ newContext
