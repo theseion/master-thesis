@@ -4,14 +4,16 @@
 		"stackDebuggingActionsPragmas" : "MaxLeske 6/17/2016 16:03"
 	},
 	"class" : {
-		"exampleTwoSystemThreads" : "MaxLeske 6/19/2016 11:15",
-		"registerToolsOn:" : "MaxLeske 6/17/2016 16:03",
 		"handlesContext:" : "MaxLeske 6/17/2016 16:03",
 		"sessionClass" : "MaxLeske 6/18/2016 17:45",
+		"register" : "MaxLeske 6/17/2016 16:03",
+		"exampleTwoUserThreads" : "MaxLeske 6/22/2016 09:35",
+		"exampleTwoSystemThreads" : "MaxLeske 6/19/2016 11:15",
+		"registerToolsOn:" : "MaxLeske 6/17/2016 16:03",
 		"helpClass" : "MaxLeske 6/17/2016 16:03",
 		"exampleOneUserOneSystemThread" : "MaxLeske 6/19/2016 11:15",
-		"defaultTitle" : "MaxLeske 6/17/2016 16:03",
 		"openOn:withFullView:andNotification:" : "MaxLeske 6/17/2016 16:03",
-		"register" : "MaxLeske 6/17/2016 16:03"
+		"defaultTitle" : "MaxLeske 6/17/2016 16:03",
+		"exampleThreeUserThreads" : "MaxLeske 6/22/2016 09:52"
 	}
 }
