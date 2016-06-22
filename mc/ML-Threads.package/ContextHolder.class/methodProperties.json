@@ -5,10 +5,13 @@
 		"index" : "MaxLeske 6/21/2016 11:09",
 		"initializeWithProcess:context:andCopy:withIndex:" : "MaxLeske 6/21/2016 16:44",
 		"process" : "MaxLeske 6/21/2016 16:43",
+		"step" : "MaxLeske 6/21/2016 17:22",
 		"originalContext" : "MaxLeske 6/21/2016 08:43",
 		"isDead" : "MaxLeske 6/21/2016 11:09",
+		"popTo" : "MaxLeske 6/21/2016 17:31",
 		"isVisible" : "MaxLeske 6/21/2016 16:21",
 		"copyContext" : "MaxLeske 6/21/2016 08:43",
+		"stepToHome" : "MaxLeske 6/21/2016 17:28",
 		"next:" : "MaxLeske 6/21/2016 16:40",
 		"canStep" : "MaxLeske 6/21/2016 17:00",
 		"completeStep" : "MaxLeske 6/21/2016 16:49"

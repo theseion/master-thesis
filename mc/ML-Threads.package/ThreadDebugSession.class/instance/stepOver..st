@@ -3,14 +3,17 @@ stepOver: aContext
 	"Send the selected message in selectedContext, and regain control 
 	after the invoked method returns."
 	
-	| newContext |
-	(self canStepFrom: aContext) ifFalse: [^ self].
+	| newContext holder |
+	(self canStepFrom: aContext) ifFalse: [ ^ self ].
 
-	newContext := (exceptionProcessHolder holderForContext: aContext) completeStep.
+	holder := exceptionProcessHolder holderForContext: aContext.
+	holder ifNil: [ ^ super stepOver: aContext ].
+	
+	newContext := holder completeStep.
 
 	self updateContextTo:  
 		(newContext == aContext
-			ifTrue: [ self stepToFirstInterestingBytecodeIn: interruptedProcess ]
+			ifTrue: [ self stepToFirstInterestingBytecodeIn: holder process ]
 			ifFalse: [ newContext ]).
 
 	self triggerEvent: #stepOver

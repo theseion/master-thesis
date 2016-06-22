@@ -3,15 +3,16 @@ stepInto: aContext
 	"Send the selected message in selectedContext, and take control in 
 	the method invoked to allow further step or send."
 
-	(self isContextPostMortem: aContext) ifTrue: [^ self].
-
-	self
-		switchProcessFor: aContext
-		or: [
-			aContext willSend
-				ifTrue: [ interruptedProcess step: aContext ]
-				ifFalse: [ ^ self stepOver: aContext ] ].
-
-	self updateContextTo: (self stepToFirstInterestingBytecodeIn: interruptedProcess).
+	| holder |
+	(self canStepFrom: aContext) ifFalse: [ ^ self ].
+	
+	aContext willSend ifFalse: [ ^ self stepOver: aContext ].
+	
+	holder := exceptionProcessHolder holderForContext: aContext.
+	holder ifNil: [ ^ super stepInto: aContext ].
+	
+	holder step.
+	
+	self updateContextTo: (self stepToFirstInterestingBytecodeIn: holder process).
 	
 	self triggerEvent: #stepInto

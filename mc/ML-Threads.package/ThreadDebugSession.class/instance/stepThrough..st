@@ -2,11 +2,15 @@ debugging actions
 stepThrough: aContext
 	"Send messages until you return to selectedContext.
 	 Used to step into a block in the method."
-	(self isContextPostMortem: aContext) ifTrue: [^ self].
+	| holder |
+	(self canStepFrom: aContext) ifFalse: [ ^ self ].
 
 	aContext willSend ifFalse: [ ^ self stepOver: aContext ].
 
-	interruptedProcess stepToHome: aContext.
-	self updateContextTo: (self stepToFirstInterestingBytecodeIn: interruptedProcess).
+	holder := exceptionProcessHolder holderForContext: aContext.
+	holder ifNil: [ ^ super stepThrough: aContext ].
+	
+	holder stepToHome.
+	self updateContextTo: (self stepToFirstInterestingBytecodeIn: holder process).
 			
 	self triggerEvent: #stepThrough 
