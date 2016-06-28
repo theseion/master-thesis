@@ -1,3 +1,3 @@
 accessing
 helpClass
-	^ PromiseDebuggerHelp
+	^ self shouldBeImplemented
