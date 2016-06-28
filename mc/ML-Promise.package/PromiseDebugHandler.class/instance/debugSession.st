@@ -1,3 +1,3 @@
 accessing
 debugSession
-	^ debugSession ifNil: [ debugSession := PromiseDebugSession for: self promise ]
+	^ debugSession ifNil: [ debugSession := ThreadDebugSession for: self promise ]

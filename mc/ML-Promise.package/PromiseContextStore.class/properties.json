@@ -13,7 +13,8 @@
 		"realOriginTopContext",
 		"realSenderOfNewExceptionBottomContext",
 		"originProcess",
-		"originStack"
+		"originStack",
+		"exceptionProcess"
 	],
 	"name" : "PromiseContextStore",
 	"type" : "normal"

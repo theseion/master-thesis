@@ -1,13 +1,15 @@
 {
 	"instance" : {
 		"originStack" : "MaxLeske 6/3/2016 13:10",
-		"originProcess" : "MaxLeske 6/2/2016 11:47",
-		"originContext:" : "MaxLeske 6/3/2016 11:36",
+		"originContext" : "MaxLeske 4/21/2016 13:57",
+		"hasExceptionContext" : "MaxLeske 4/21/2016 13:59",
+		"exceptionProcess" : "MaxLeske 6/28/2016 15:39",
 		"freezeOrigin" : "MaxLeske 6/3/2016 11:43",
 		"exceptionContext:" : "MaxLeske 4/21/2016 13:57",
 		"exceptionContext" : "MaxLeske 4/21/2016 13:57",
-		"hasExceptionContext" : "MaxLeske 4/21/2016 13:59",
-		"originContext" : "MaxLeske 4/21/2016 13:57"
+		"originProcess" : "MaxLeske 6/2/2016 11:47",
+		"originContext:" : "MaxLeske 6/3/2016 11:36",
+		"exceptionProcess:" : "MaxLeske 6/28/2016 15:38"
 	},
 	"class" : { }
 }
