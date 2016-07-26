@@ -1,14 +1,11 @@
 {
-	"category" : "BaselineOfMLPromise",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "BaselineOfMLPromise",
-	"pools" : [
-		 ],
 	"super" : "BaselineOf",
-	"type" : "normal" }
+	"category" : "BaselineOfMLPromise",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BaselineOfMLPromise",
+	"type" : "normal"
+}
