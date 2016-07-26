@@ -4,7 +4,6 @@ baseline: spec
 	
 	spec for: #common do: [
 		spec blessing: #baseline.
-		spec preLoadDoIt: #mergeKernel.
 		spec
 			project: 'Seamless'
 			with: [
