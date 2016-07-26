@@ -11,9 +11,17 @@ baseline: spec
                 className: 'ConfigurationOfSeamless';
                 versionString: #stable;
                 repository: 'http://smalltalkhub.com/mc/Pharo/Seamless/main' ].
+		
+		spec
+			baseline: 'MLThreads'
+			with: [
+				spec
+					repository: 'github://theseion/master-thesis:master/mc';
+					loads: #('ML-Threads') ].
+		
 		spec
 			package: 'ML-Promise'
-			with: [ spec requires: #('Seamless') ].
+			with: [ spec requires: #('ML-Threads' 'Seamless') ].
 
 		spec
 			group: 'default'
