@@ -21,7 +21,7 @@ baseline: spec
 		
 		spec
 			package: 'ML-Promise'
-			with: [ spec requires: #('ML-Threads' 'Seamless') ].
+			with: [ spec requires: #('MLThreads' 'Seamless') ].
 
 		spec
 			group: 'default'
