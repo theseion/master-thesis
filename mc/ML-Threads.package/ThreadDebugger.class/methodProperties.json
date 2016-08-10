@@ -1,8 +1,5 @@
 {
-	"instance" : {
-		"debuggingActionsPragmas" : "MaxLeske 6/17/2016 16:03",
-		"stackDebuggingActionsPragmas" : "MaxLeske 6/17/2016 16:03"
-	},
+	"instance" : { },
 	"class" : {
 		"sessionClass" : "MaxLeske 6/18/2016 17:45",
 		"register" : "MaxLeske 6/17/2016 16:03",

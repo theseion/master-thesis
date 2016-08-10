@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "Object",
-	"category" : "ML-Promise",
+	"category" : "ML-Promise-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [
