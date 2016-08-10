@@ -1,9 +1,10 @@
 {
 	"instance" : { },
 	"class" : {
+		"ruleRBTempsReadBeforeWrittenRuleV1FalsePositive" : "MaxLeske 8/10/2016 16:34",
 		"ruleRBClassInstVarNotInitializedRuleV1FalsePositive" : "MaxLeske 8/10/2016 14:06",
-		"ruleRBUtilityMethodsRuleV1FalsePositive" : "MaxLeske 8/10/2016 14:17",
 		"ruleRBContainsRuleV1FalsePositive" : "MaxLeske 6/19/2016 14:49",
+		"ruleRBUtilityMethodsRuleV1FalsePositive" : "MaxLeske 8/10/2016 14:17",
 		"ruleRBClassNotReferencedRuleV1FalsePositive" : "MaxLeske 8/10/2016 14:55"
 	}
 }
