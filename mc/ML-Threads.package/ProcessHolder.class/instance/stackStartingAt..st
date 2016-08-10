@@ -13,11 +13,10 @@ stackStartingAt: aContextHolder
 		from: aContextHolder index
 		to: contextHolders size
 		do: [ :contextHolder |
-			contextHolder isVisible ifTrue: [
-				stack add: ((isSuspended not or: [
-					contextHolder isDead ])
-						ifTrue: [ contextHolder copyContext ]
-						ifFalse: [ contextHolder originalContext ]) ] ].
+			stack add: ((isSuspended not or: [
+				contextHolder isDead ])
+					ifTrue: [ contextHolder copyContext ]
+					ifFalse: [ contextHolder originalContext ]) ].
 
 	^ self process isUserProcess
 		ifFalse: [ stack ]

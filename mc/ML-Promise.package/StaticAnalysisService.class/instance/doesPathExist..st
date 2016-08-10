@@ -1,3 +1,0 @@
-private
-doesPathExist: absolutePath
-	^ false
