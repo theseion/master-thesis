@@ -1,6 +1,6 @@
 private
 run: aBlock with: aConnection
-	self contextStore originProcessHolder: (ProcessHolder for: Processor activeProcess).
+	self contextStore masterProcessHolder: (ProcessHolder for: Processor activeProcess).
 	self run: [ 
 		| network remotePeer request remoteEnvironment remotePromise message |
 		network := SeamlessNetwork new.

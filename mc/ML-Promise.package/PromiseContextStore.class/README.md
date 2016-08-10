@@ -1,0 +1,3 @@
+I am a helper that provides a single point of access for process and context reference needed by different objects.
+
+In case of an exception in the promise process I store a reference to that process and to the context in which the exception originated. For remote promises I also store a reference to the master process so that the master-slave relationship can be established for the remote process that failed.

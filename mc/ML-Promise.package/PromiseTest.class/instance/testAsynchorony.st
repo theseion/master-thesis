@@ -1,5 +1,5 @@
 tests
-testAsynchoronism
+testAsynchorony
 	| promise before runTime |
 	before := nil.
 	promise := [ 

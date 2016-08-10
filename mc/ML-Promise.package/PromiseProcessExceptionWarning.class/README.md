@@ -1,0 +1,1 @@
+I represent a promise execution that failed and for which no default return value was specified.

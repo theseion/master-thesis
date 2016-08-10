@@ -2,4 +2,4 @@ operations
 run
 	self contextStore exceptionProcess
 		debug: self contextStore exceptionContext
-		title: 'Blah'
+		title: 'Promise debugger'

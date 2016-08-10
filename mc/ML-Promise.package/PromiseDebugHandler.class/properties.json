@@ -1,13 +1,11 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "MaxLeske 8/10/2016 10:54",
 	"super" : "PromiseHandler",
 	"category" : "ML-Promise-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"debugSession"
-	],
+	"instvars" : [ ],
 	"name" : "PromiseDebugHandler",
 	"type" : "normal"
 }

@@ -1,3 +1,3 @@
 accessing
-originProcessHolder: aProcessHolder
+masterProcessHolder: aProcessHolder
 	originProcessHolder := aProcessHolder

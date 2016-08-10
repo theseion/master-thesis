@@ -1,0 +1,1 @@
+I handle debug requests for a promise. I know how to open a debugger and populate it with the correct references to processes and contexts.
