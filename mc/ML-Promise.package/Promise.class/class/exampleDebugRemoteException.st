@@ -11,6 +11,6 @@ exampleDebugRemoteException
 	Warning signal: 'Did you start the server in the remote image?'.
 	network := SeamlessNetwork new.
 	remoteGlobals := network environmentAt: (TCPAddress ip: #[127 0 0 1] port: 1111).
-	[ (remoteGlobals at: #String) at: 0 ] promise
+	[ (remoteGlobals at: #Object) error: 'it works' ] promise
 		openDebuggerOnError: true;
 		value

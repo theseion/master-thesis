@@ -6,7 +6,7 @@ exampleTwoUserThreads
 		[[ 1 + 2. [ self halt ] value. sem signal ] on: Halt do: [ :h |
 			| session |
 			session := self sessionClass 
-				named: 'Promise debugger'
+				named: 'Thread debugger'
 				on: Processor activeProcess
 				startedAt: h signalContext.
 			UIManager default defer: [

@@ -3,12 +3,11 @@
 	"class" : {
 		"sessionClass" : "MaxLeske 6/18/2016 17:45",
 		"register" : "MaxLeske 6/17/2016 16:03",
-		"exampleTwoUserThreads" : "MaxLeske 8/10/2016 14:16",
-		"exampleTwoSystemThreads" : "MaxLeske 8/10/2016 14:15",
+		"exampleTwoUserThreads" : "MaxLeske 8/10/2016 17:24",
+		"exampleTwoSystemThreads" : "MaxLeske 8/10/2016 17:24",
 		"registerToolsOn:" : "MaxLeske 6/17/2016 16:03",
-		"helpClass" : "MaxLeske 6/22/2016 11:10",
+		"initialize" : "MaxLeske 8/10/2016 17:32",
 		"exampleOneUserOneSystemThread" : "MaxLeske 6/22/2016 11:18",
-		"openOn:withFullView:andNotification:" : "MaxLeske 6/22/2016 11:11",
 		"defaultTitle" : "MaxLeske 6/22/2016 11:09",
 		"exampleThreeUserThreads" : "MaxLeske 6/22/2016 11:12",
 		"availableAutomatically" : "MaxLeske 6/22/2016 11:16"

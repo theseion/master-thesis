@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "MaxLeske 8/10/2016 11:24",
 	"super" : "Warning",
-	"category" : "ML-Promise-Core",
+	"category" : "ML-Promise-Exceptions",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
