@@ -1,7 +1,6 @@
 ```Smalltalk
-[ Metacello new
-  baseline: #MLPromise;
+Metacello new
+  baseline: #MLThesis;
   repository: 'github://theseion/master-thesis:master/mc';
-  load ]
-    on: Warning do: [ :ex | ex resume ]
+  load
 ```
