@@ -9,7 +9,7 @@ baseline: spec
 			with: [
 				spec
                 className: 'ConfigurationOfSeamless';
-                versionString: #stable;
+                versionString: '0.8.2';
                 repository: 'http://smalltalkhub.com/mc/Pharo/Seamless/main' ].
 		
 		spec
