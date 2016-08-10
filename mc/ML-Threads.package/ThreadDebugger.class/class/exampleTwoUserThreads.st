@@ -5,12 +5,12 @@ exampleTwoUserThreads
 		sem := Semaphore new. 
 		[[ 1 + 2. [ self halt ] value. sem signal ] on: Halt do: [ :h |
 			| session |
-			session := ThreadDebugSession 
+			session := self sessionClass 
 				named: 'Promise debugger'
 				on: Processor activeProcess
 				startedAt: h signalContext.
 			UIManager default defer: [
-				ThreadDebugger
+				self
 					openOn: session
 					withFullView: true ].
 			Processor activeProcess suspend ]] newUserProcess

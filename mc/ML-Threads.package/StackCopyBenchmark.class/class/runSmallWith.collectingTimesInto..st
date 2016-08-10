@@ -4,7 +4,7 @@ runSmallWith: counter collectingTimesInto: aCollection
 	counter < 100000
 		ifTrue: [
 			self
-				runWith: counter + 1
+				runSmallWith: counter + 1
 				collectingTimesInto: aCollection ]
 		ifFalse: [
 			before := Smalltalk vm totalGCTime.

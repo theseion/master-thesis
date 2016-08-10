@@ -1,3 +1,3 @@
-as yet unclassified
+changing suspended state
 stepToHome
 	^ self process stepToHome: self originalContext

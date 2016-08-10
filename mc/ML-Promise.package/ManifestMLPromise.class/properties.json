@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "<historical>",
 	"super" : "PackageManifest",
-	"category" : "ML-Threads",
+	"category" : "ML-Promise",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "ManifestMLThreads",
+	"name" : "ManifestMLPromise",
 	"type" : "normal"
 }

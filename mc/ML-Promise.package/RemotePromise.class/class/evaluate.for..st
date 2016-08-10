@@ -1,7 +1,8 @@
-as yet unclassified
+evaluating
 evaluate: aBlock for: aRemotePromise
 	| semaphore result |
 	semaphore := Semaphore new.
+	result := nil.
 	[ [ result := aBlock value.
 		semaphore wait ]
 			on: Error

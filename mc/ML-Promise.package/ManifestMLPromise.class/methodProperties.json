@@ -1,0 +1,9 @@
+{
+	"instance" : { },
+	"class" : {
+		"ruleRBClassNotReferencedRuleV1FalsePositive" : "MaxLeske 8/10/2016 14:56",
+		"ruleRBUtilityMethodsRuleV1FalsePositive" : "MaxLeske 8/10/2016 15:02",
+		"ruleRBInconsistentMethodClassificationRuleV1FalsePositive" : "MaxLeske 8/10/2016 14:57",
+		"ruleRBBadMessageRuleV1FalsePositive" : "MaxLeske 8/10/2016 15:03"
+	}
+}

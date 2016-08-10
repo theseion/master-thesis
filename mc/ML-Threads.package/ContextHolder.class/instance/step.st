@@ -1,3 +1,3 @@
-as yet unclassified
+changing suspended state
 step
 	^ self process step: self originalContext
