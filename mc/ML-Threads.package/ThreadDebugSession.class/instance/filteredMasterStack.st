@@ -5,4 +5,6 @@ filteredMasterStack
 	entryPointHolder := masterHolder findContextHolderSuchThat: [ :contextHolder |
 		contextHolder originalContext selector = #newUserProcess ].
 		
-	^ masterHolder stackStartingAt: entryPointHolder
+	^ entryPointHolder
+		ifNil: [ masterHolder stack ]
+		ifNotNil: [ masterHolder stackStartingAt: entryPointHolder ]
