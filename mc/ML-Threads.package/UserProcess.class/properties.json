@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"masterProcessHolder"
+		"masterProcessHolder",
+		"terminationSemaphore"
 	],
 	"name" : "UserProcess",
 	"type" : "normal"
