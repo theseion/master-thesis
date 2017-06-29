@@ -1,13 +1,13 @@
 {
-	"commentStamp" : "MaxLeske 7/9/2016 17:42",
-	"super" : "SMarkSuite",
+	"commentStamp" : "",
+	"super" : "SMarkTimer",
 	"category" : "ML-Threads-Benchmarks",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"process"
+		"gcTimeBefore"
 	],
-	"name" : "StackCopyBenchmark",
+	"name" : "GCExcludingTimer",
 	"type" : "normal"
 }

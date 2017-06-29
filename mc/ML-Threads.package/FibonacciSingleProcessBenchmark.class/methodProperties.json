@@ -1,0 +1,10 @@
+{
+	"instance" : {
+		"benchFibonacciWithNormalProcess" : "MaxLeske 6/25/2017 16:45",
+		"fibonacciOf:" : "MaxLeske 6/25/2017 16:43",
+		"benchFibonacciWithAugmentedProcess" : "MaxLeske 6/29/2017 16:08"
+	},
+	"class" : {
+		"defaultProblemSize" : "MaxLeske 6/25/2017 16:50"
+	}
+}

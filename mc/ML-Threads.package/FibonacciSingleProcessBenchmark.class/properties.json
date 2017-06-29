@@ -1,13 +1,11 @@
 {
-	"commentStamp" : "MaxLeske 7/9/2016 17:42",
+	"commentStamp" : "",
 	"super" : "SMarkSuite",
 	"category" : "ML-Threads-Benchmarks",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"process"
-	],
-	"name" : "StackCopyBenchmark",
+	"instvars" : [ ],
+	"name" : "FibonacciSingleProcessBenchmark",
 	"type" : "normal"
 }

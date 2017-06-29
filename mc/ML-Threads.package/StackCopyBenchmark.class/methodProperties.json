@@ -1,8 +1,15 @@
 {
-	"instance" : { },
+	"instance" : {
+		"benchCopySmallContextsStack" : "MaxLeske 6/28/2017 14:45",
+		"setUpBenchCopySmallContextsStack" : "MaxLeske 6/28/2017 15:45",
+		"buildSmallContextsStackCurrentSize:whenDone:" : "MaxLeske 6/28/2017 15:24",
+		"tearDownBenchCopySmallContextsStack" : "MaxLeske 6/28/2017 15:19",
+		"buildLargeContextsStackCurrentSize:whenDone:" : "MaxLeske 6/28/2017 15:24",
+		"setUpBenchCopyLargeContextsStack" : "MaxLeske 6/28/2017 15:45",
+		"tearDownBenchCopyLargeContextsStack" : "MaxLeske 6/28/2017 15:19",
+		"benchCopyLargeContextsStack" : "MaxLeske 6/28/2017 14:45"
+	},
 	"class" : {
-		"run" : "MaxLeske 8/10/2016 14:54",
-		"runLargeWith:collectingTimesInto:" : "MaxLeske 8/10/2016 14:48",
-		"runSmallWith:collectingTimesInto:" : "MaxLeske 8/10/2016 14:19"
+		"defaultProblemSize" : "MaxLeske 6/28/2017 14:24"
 	}
 }

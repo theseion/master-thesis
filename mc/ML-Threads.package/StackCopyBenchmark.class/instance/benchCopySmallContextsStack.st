@@ -1,0 +1,3 @@
+running
+benchCopySmallContextsStack
+	process suspendedContext copyStack
