@@ -10,7 +10,7 @@ baseline: spec
 			with: [
 				spec
                 className: 'ConfigurationOfSMark';
-                versionString: #'1.0.1';
+                versionString: '1.0.1';
                 repository: 'http://smalltalkhub.com/mc/StefanMarr/SMark/main/' ].
 		spec
 			package: 'ML-Threads'
